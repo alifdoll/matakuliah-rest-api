@@ -8,10 +8,13 @@ use App\Schedule;
 class Group extends Model
 {
     public $timestamps = false;
-    protected $primaryKey = 'id_mk';
 
-    public function lecture()
+    public function schedules()
     {
-        return $this->belongsTo('App\Lecture');
+        return $this->hasMany('App\Schedule', 'id_kp', 'kode');
+    }
+
+    public function lecture() {
+        return $this->belongsTo('App\Lecture', 'id_mk');
     }
 }

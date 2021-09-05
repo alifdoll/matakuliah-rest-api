@@ -14,6 +14,6 @@ class Lecture extends Model
 
     public function groups()
     {
-        return $this->hasMany('App\Group');
+        return $this->hasMany('App\Group', 'id_mk');
     }
 }

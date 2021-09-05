@@ -3,9 +3,13 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\LectureController;
 use App\Lecture;
 use App\Group;
 use App\Schedule;
+use App\Http\Resources\LectureResource;
+use App\Http\Resources\GroupResource;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,10 +23,12 @@ use App\Schedule;
 */
 
 
-Route::get('/lectures', function () {
-    return Group::findOrFail('2508')->lecture;
-});
+// Route::get('/lectures', function () {
+//     return LectureController::index();
+// });
 
+
+Route::get('/lectures', 'LectureController@index');
 // Route::get('/products', 'ProductController@index');
 // Route::get('/categories', 'CategoryController@index');
 
