@@ -1,1 +1,2998 @@
-[{"id": "2508-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "2512-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "17:35"}, {"id": "2607-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "2668-", "id_kp": "-", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "2668-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "2671A", "id_kp": "A", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "2671A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "2876-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "2885-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "2885-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "2888-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "2889-", "id_kp": "-", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "2890-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "2891-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "2893-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "2901-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "2902-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "2903-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "08:50", "waktuBerakhir": "09:45"}, {"id": "2904-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "2906-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "07:00", "waktuBerakhir": "07:55"}, {"id": "2907-", "id_kp": "-", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "2921MA", "id_kp": "MA", "hari": "Sabtu", "waktuMulai": "13:00", "waktuBerakhir": "13:55"}, {"id": "2922MA", "id_kp": "MA", "hari": "Sabtu", "waktuMulai": "10:40", "waktuBerakhir": "11:35"}, {"id": "2953-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "14:50", "waktuBerakhir": "18:30"}, {"id": "2996A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "2997A", "id_kp": "A", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "2998A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3003A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3008A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3009A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3010A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3011A", "id_kp": "A", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3012A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3013A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3014A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3015A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3016A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3019A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "07:55", "waktuBerakhir": "10:40"}, {"id": "3020A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "07:55", "waktuBerakhir": "10:40"}, {"id": "3021-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "10:40", "waktuBerakhir": "13:55"}, {"id": "3024-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3025A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "07:55", "waktuBerakhir": "10:40"}, {"id": "3039A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3039B", "id_kp": "B", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3039C", "id_kp": "C", "hari": "Kamis", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3039D", "id_kp": "D", "hari": "Selasa", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3040A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3040A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3040B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3040B", "id_kp": "B", "hari": "Senin", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3040C", "id_kp": "C", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3040C", "id_kp": "C", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3043A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3044A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3045A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3045B", "id_kp": "B", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3046A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3049A", "id_kp": "A", "hari": "Senin", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3049A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3049B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3049B", "id_kp": "B", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3053A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3053B", "id_kp": "B", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3054A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3057A", "id_kp": "A", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3060A", "id_kp": "A", "hari": "Senin", "waktuMulai": "10:40", "waktuBerakhir": "16:40"}, {"id": "3060B", "id_kp": "B", "hari": "Selasa", "waktuMulai": "10:40", "waktuBerakhir": "16:40"}, {"id": "3062-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3062-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "08:50", "waktuBerakhir": "11:35"}, {"id": "3063-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3063-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3064-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3065-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3065-", "id_kp": "-", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3067-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "14:50", "waktuBerakhir": "17:35"}, {"id": "3068-", "id_kp": "-", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3069-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3069-", "id_kp": "-", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "17:35"}, {"id": "3074-", "id_kp": "-", "hari": "Senin", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3074-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3075-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3076-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3077-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3078-", "id_kp": "-", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3079-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "07:00", "waktuBerakhir": "10:40"}, {"id": "3080-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "10:40", "waktuBerakhir": "14:50"}, {"id": "3082-", "id_kp": "-", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3083-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3084-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3088-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "14:50", "waktuBerakhir": "17:35"}, {"id": "3088-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "14:50", "waktuBerakhir": "17:35"}, {"id": "3089-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3094-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "09:45", "waktuBerakhir": "11:35"}, {"id": "3094-", "id_kp": "-", "hari": "Senin", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3095-", "id_kp": "-", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3096-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3099-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3099-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3107-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3109-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3111Z", "id_kp": "Z", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3119A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "15:45"}, {"id": "3119B", "id_kp": "B", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "15:45"}, {"id": "3120Z", "id_kp": "Z", "hari": "Rabu", "waktuMulai": "16:40", "waktuBerakhir": "18:30"}, {"id": "3121-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "07:55", "waktuBerakhir": "10:40"}, {"id": "3122-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3123-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3127-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "17:35", "waktuBerakhir": "20:20"}, {"id": "3128-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3129-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3130-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3131-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3132-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3133-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "17:35", "waktuBerakhir": "19:25"}, {"id": "3134-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "16:40", "waktuBerakhir": "20:20"}, {"id": "3135-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "13:00", "waktuBerakhir": "16:40"}, {"id": "3137-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3138-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3139-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "14:50", "waktuBerakhir": "17:35"}, {"id": "3140-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "14:50", "waktuBerakhir": "17:35"}, {"id": "3141-", "id_kp": "-", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3142-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3145-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3146-", "id_kp": "-", "hari": "Senin", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3147-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3148-", "id_kp": "-", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "17:35"}, {"id": "3152-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "17:35", "waktuBerakhir": "19:25"}, {"id": "3159-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3160A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3160B", "id_kp": "B", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3161-", "id_kp": "-", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3162-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3164A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3164B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3165A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3165B", "id_kp": "B", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3166A", "id_kp": "A", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3166B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3167Z", "id_kp": "Z", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3168-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3169-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3169-", "id_kp": "-", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3170-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3171-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3172-", "id_kp": "-", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3173Z", "id_kp": "Z", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3174-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3175-", "id_kp": "-", "hari": "Senin", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3176A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3176B", "id_kp": "B", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3177A", "id_kp": "A", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3177B", "id_kp": "B", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3178-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3179-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3180-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3181A", "id_kp": "A", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3181B", "id_kp": "B", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3182A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3182B", "id_kp": "B", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "17:35"}, {"id": "3183Z", "id_kp": "Z", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3184A", "id_kp": "A", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3184B", "id_kp": "B", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3185A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3185B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3186-", "id_kp": "-", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3187A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3187B", "id_kp": "B", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3188Z", "id_kp": "Z", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3189-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3190-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3191-", "id_kp": "-", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "17:35"}, {"id": "3192-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "07:00", "waktuBerakhir": "07:55"}, {"id": "3193-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "07:55", "waktuBerakhir": "08:50"}, {"id": "3194-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "09:45", "waktuBerakhir": "10:40"}, {"id": "3198Z", "id_kp": "Z", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3200-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3201-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3202-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3204-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3205MO", "id_kp": "MO", "hari": "Sabtu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3210-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3211Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3212Z", "id_kp": "Z", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3213MO", "id_kp": "MO", "hari": "Sabtu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3214A", "id_kp": "A", "hari": "Senin", "waktuMulai": "14:50", "waktuBerakhir": "15:45"}, {"id": "3214B", "id_kp": "B", "hari": "Senin", "waktuMulai": "17:35", "waktuBerakhir": "18:30"}, {"id": "3214C", "id_kp": "C", "hari": "Kamis", "waktuMulai": "14:50", "waktuBerakhir": "15:45"}, {"id": "3214D", "id_kp": "D", "hari": "Kamis", "waktuMulai": "14:50", "waktuBerakhir": "15:45"}, {"id": "3214E", "id_kp": "E", "hari": "Senin", "waktuMulai": "14:50", "waktuBerakhir": "15:45"}, {"id": "3214Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "11:35", "waktuBerakhir": "12:30"}, {"id": "3215Z", "id_kp": "Z", "hari": "Selasa", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3215ZA", "id_kp": "ZA", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3215ZB", "id_kp": "ZB", "hari": "Rabu", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3215ZC", "id_kp": "ZC", "hari": "Rabu", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3216A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3216B", "id_kp": "B", "hari": "Selasa", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3216C", "id_kp": "C", "hari": "Rabu", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3216Z", "id_kp": "Z", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3219A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3219B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3219Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3221A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3221B", "id_kp": "B", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3221Z", "id_kp": "Z", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3222Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3222ZA", "id_kp": "ZA", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3222ZB", "id_kp": "ZB", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3222ZC", "id_kp": "ZC", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3223A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3223A", "id_kp": "A", "hari": "Senin", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3223B", "id_kp": "B", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3223B", "id_kp": "B", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3223C", "id_kp": "C", "hari": "Rabu", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3223C", "id_kp": "C", "hari": "Senin", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3223D", "id_kp": "D", "hari": "Selasa", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3223D", "id_kp": "D", "hari": "Kamis", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3223E", "id_kp": "E", "hari": "Rabu", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3223E", "id_kp": "E", "hari": "Senin", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3223Z", "id_kp": "Z", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3223Z", "id_kp": "Z", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3224A", "id_kp": "A", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3224A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3224B", "id_kp": "B", "hari": "Senin", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3224B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3224C", "id_kp": "C", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3224C", "id_kp": "C", "hari": "Senin", "waktuMulai": "13:55", "waktuBerakhir": "15:45"}, {"id": "3224D", "id_kp": "D", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3224D", "id_kp": "D", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3224Z", "id_kp": "Z", "hari": "Kamis", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3224Z", "id_kp": "Z", "hari": "Selasa", "waktuMulai": "08:50", "waktuBerakhir": "11:35"}, {"id": "3228A", "id_kp": "A", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3228B", "id_kp": "B", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3229A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3231A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3231B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3231Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3232Z", "id_kp": "Z", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3232ZA", "id_kp": "ZA", "hari": "Kamis", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3232ZB", "id_kp": "ZB", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3232ZC", "id_kp": "ZC", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3232ZD", "id_kp": "ZD", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3233A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3234A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3234B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3234C", "id_kp": "C", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3234D", "id_kp": "D", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3234Z", "id_kp": "Z", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3235A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3235B", "id_kp": "B", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3235C", "id_kp": "C", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3235MO", "id_kp": "MO", "hari": "Sabtu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3235Z", "id_kp": "Z", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3236A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3237A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3237B", "id_kp": "B", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3238A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3238B", "id_kp": "B", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3239ZA", "id_kp": "ZA", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3239ZB", "id_kp": "ZB", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3239ZC", "id_kp": "ZC", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3240A", "id_kp": "A", "hari": "Sabtu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3240MA", "id_kp": "MA", "hari": "Sabtu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3241A", "id_kp": "A", "hari": "Sabtu", "waktuMulai": "07:00", "waktuBerakhir": "10:40"}, {"id": "3246-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3247MA", "id_kp": "MA", "hari": "Sabtu", "waktuMulai": "11:35", "waktuBerakhir": "16:40"}, {"id": "3248MA", "id_kp": "MA", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "20:20"}, {"id": "3267MA", "id_kp": "MA", "hari": "Sabtu", "waktuMulai": "13:00", "waktuBerakhir": "17:35"}, {"id": "3271MA", "id_kp": "MA", "hari": "Sabtu", "waktuMulai": "07:00", "waktuBerakhir": "11:35"}, {"id": "3271MO", "id_kp": "MO", "hari": "Sabtu", "waktuMulai": "07:00", "waktuBerakhir": "11:35"}, {"id": "3272MA", "id_kp": "MA", "hari": "Sabtu", "waktuMulai": "07:00", "waktuBerakhir": "11:35"}, {"id": "3273A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3273B", "id_kp": "B", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3275-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3276-", "id_kp": "-", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3277-", "id_kp": "-", "hari": "Sabtu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3279-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3281-", "id_kp": "-", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3285Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3288A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3289A", "id_kp": "A", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3290A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3291A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3295A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3297A", "id_kp": "A", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3297Z", "id_kp": "Z", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3299A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3301A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3301B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3301Z", "id_kp": "Z", "hari": "Kamis", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3305Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3308Z", "id_kp": "Z", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3309Z", "id_kp": "Z", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3313Z", "id_kp": "Z", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3315A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3315MO", "id_kp": "MO", "hari": "Sabtu", "waktuMulai": "17:35", "waktuBerakhir": "20:20"}, {"id": "3320A", "id_kp": "A", "hari": "Sabtu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3325A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3327A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3328A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3329A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3330A", "id_kp": "A", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3331A", "id_kp": "A", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3332A", "id_kp": "A", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3333A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3337A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3338A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3339A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3340MO", "id_kp": "MO", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3342P", "id_kp": "P", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3345P", "id_kp": "P", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3346P", "id_kp": "P", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3347P", "id_kp": "P", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3351P", "id_kp": "P", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3352P", "id_kp": "P", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3357P", "id_kp": "P", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3357Q", "id_kp": "Q", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3358P", "id_kp": "P", "hari": "Jumat", "waktuMulai": "07:55", "waktuBerakhir": "10:40"}, {"id": "3365P", "id_kp": "P", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3365Q", "id_kp": "Q", "hari": "Selasa", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3366-", "id_kp": "-", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3367-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3371-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3372-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3373-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3374-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3375-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3376Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3377-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3417-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3418-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3420-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3421Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3422A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3422B", "id_kp": "B", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3422Z", "id_kp": "Z", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3423A", "id_kp": "A", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3423B", "id_kp": "B", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3423C", "id_kp": "C", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3423D", "id_kp": "D", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3423E", "id_kp": "E", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3423F", "id_kp": "F", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3423G", "id_kp": "G", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3423H", "id_kp": "H", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3423I", "id_kp": "I", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3423J", "id_kp": "J", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3428E1", "id_kp": "E1", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3429E2", "id_kp": "E2", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3431E4", "id_kp": "E4", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3431E5", "id_kp": "E5", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3431E6", "id_kp": "E6", "hari": "Kamis", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3431E7", "id_kp": "E7", "hari": "Kamis", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3431E7", "id_kp": "E7", "hari": "Kamis", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3431E8", "id_kp": "E8", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3431E9", "id_kp": "E9", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3432E3", "id_kp": "E3", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3468E1", "id_kp": "E1", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3469E1", "id_kp": "E1", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3470E4", "id_kp": "E4", "hari": "Selasa", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3471E6", "id_kp": "E6", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3471E7", "id_kp": "E7", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3471E8", "id_kp": "E8", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3471E9", "id_kp": "E9", "hari": "Kamis", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3472E1", "id_kp": "E1", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3473E1", "id_kp": "E1", "hari": "Senin", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3473E1", "id_kp": "E1", "hari": "Senin", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3474E1", "id_kp": "E1", "hari": "Senin", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3475E4", "id_kp": "E4", "hari": "Selasa", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3476E6", "id_kp": "E6", "hari": "Rabu", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3476E7", "id_kp": "E7", "hari": "Kamis", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3476E8", "id_kp": "E8", "hari": "Jumat", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3476E9", "id_kp": "E9", "hari": "Jumat", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3477E1", "id_kp": "E1", "hari": "Senin", "waktuMulai": "07:55", "waktuBerakhir": "09:45"}, {"id": "3478E1", "id_kp": "E1", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3480E2", "id_kp": "E2", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3480E3", "id_kp": "E3", "hari": "Selasa", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3482E1", "id_kp": "E1", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3482E1", "id_kp": "E1", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3484MA", "id_kp": "MA", "hari": "Sabtu", "waktuMulai": "13:00", "waktuBerakhir": "17:35"}, {"id": "3485-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3486-", "id_kp": "-", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3487MO", "id_kp": "MO", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3490MO", "id_kp": "MO", "hari": "Sabtu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3491MO", "id_kp": "MO", "hari": "Sabtu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3492MO", "id_kp": "MO", "hari": "Sabtu", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3493E1", "id_kp": "E1", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3494D1", "id_kp": "D1", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3495D1", "id_kp": "D1", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3496C1", "id_kp": "C1", "hari": "Rabu", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3497D1", "id_kp": "D1", "hari": "Senin", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3498C1", "id_kp": "C1", "hari": "Kamis", "waktuMulai": "15:45", "waktuBerakhir": "18:30"}, {"id": "3500A", "id_kp": "A", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3500B", "id_kp": "B", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3500C", "id_kp": "C", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3500Z", "id_kp": "Z", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3501A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3502-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3502-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3503-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "07:55", "waktuBerakhir": "10:40"}, {"id": "3504A", "id_kp": "A", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3505-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "13:55", "waktuBerakhir": "16:40"}, {"id": "3506A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "16:40", "waktuBerakhir": "19:25"}, {"id": "3507A", "id_kp": "A", "hari": "Senin", "waktuMulai": "07:55", "waktuBerakhir": "10:40"}, {"id": "3508-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "16:40", "waktuBerakhir": "19:25"}, {"id": "3509-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "17:35"}, {"id": "3510-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "13:55", "waktuBerakhir": "16:40"}, {"id": "3511-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3512A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3513A", "id_kp": "A", "hari": "Senin", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3514A", "id_kp": "A", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3515A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3516A", "id_kp": "A", "hari": "Senin", "waktuMulai": "07:00", "waktuBerakhir": "09:45"}, {"id": "3517A", "id_kp": "A", "hari": "Senin", "waktuMulai": "13:00", "waktuBerakhir": "15:45"}, {"id": "3518A", "id_kp": "A", "hari": "Rabu", "waktuMulai": "09:45", "waktuBerakhir": "12:30"}, {"id": "3519-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3520A", "id_kp": "A", "hari": "Selasa", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3520B", "id_kp": "B", "hari": "Selasa", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3520C", "id_kp": "C", "hari": "Selasa", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3520D", "id_kp": "D", "hari": "Selasa", "waktuMulai": "10:40", "waktuBerakhir": "12:30"}, {"id": "3520E", "id_kp": "E", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3520F", "id_kp": "F", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3520G", "id_kp": "G", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3520H", "id_kp": "H", "hari": "Jumat", "waktuMulai": "07:00", "waktuBerakhir": "08:50"}, {"id": "3521-", "id_kp": "-", "hari": "Rabu", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}, {"id": "3522-", "id_kp": "-", "hari": "Kamis", "waktuMulai": "13:00", "waktuBerakhir": "14:50"}, {"id": "3523-", "id_kp": "-", "hari": "Jumat", "waktuMulai": "15:45", "waktuBerakhir": "17:35"}, {"id": "3524-", "id_kp": "-", "hari": "Selasa", "waktuMulai": "15:45", "waktuBerakhir": "17:35"}, {"id": "3525A", "id_kp": "A", "hari": "Senin", "waktuMulai": "08:50", "waktuBerakhir": "10:40"}, {"id": "3526C", "id_kp": "C", "hari": "Selasa", "waktuMulai": "14:50", "waktuBerakhir": "16:40"}]
+[
+    {
+        "id": "2508-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "2512-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "2607-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "2668-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "2668-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "2671A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "2671A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "2876-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "2885-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "2885-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "2888-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "2889-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "2890-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "2891-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "2893-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "2901-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "2902-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "2903-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "2904-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "2906-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "07:55"
+    },
+    {
+        "id": "2907-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "2921MA",
+        "id_kp": "MA",
+        "hari": "Sabtu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "13:55"
+    },
+    {
+        "id": "2922MA",
+        "id_kp": "MA",
+        "hari": "Sabtu",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "11:35"
+    },
+    {
+        "id": "2953-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "2996A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "2997A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "2998A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3003A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3008A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3009A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3010A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3011A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3012A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3013A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3014A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3015A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3016A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3019A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3020A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3021-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "13:55"
+    },
+    {
+        "id": "3024-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3025A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3039A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3039B",
+        "id_kp": "B",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3039C",
+        "id_kp": "C",
+        "hari": "Kamis",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3039D",
+        "id_kp": "D",
+        "hari": "Selasa",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3040A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3040A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3040B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3040B",
+        "id_kp": "B",
+        "hari": "Senin",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3040C",
+        "id_kp": "C",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3040C",
+        "id_kp": "C",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3043A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3044A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3045A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3045B",
+        "id_kp": "B",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3046A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3049A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3049A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3049B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3049B",
+        "id_kp": "B",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3053A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3053B",
+        "id_kp": "B",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3054A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3057A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3060A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3060B",
+        "id_kp": "B",
+        "hari": "Selasa",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3062-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3062-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "11:35"
+    },
+    {
+        "id": "3063-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3063-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3064-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3065-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3065-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3067-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3068-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3069-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3069-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3074-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3074-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3075-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3076-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3077-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3078-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3079-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3080-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3082-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3083-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3084-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3088-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3088-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3089-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3094-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "11:35"
+    },
+    {
+        "id": "3094-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3095-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3096-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3099-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3099-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3107-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3109-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3111Z",
+        "id_kp": "Z",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3119A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3119B",
+        "id_kp": "B",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3120Z",
+        "id_kp": "Z",
+        "hari": "Rabu",
+        "waktuMulai": "16:40",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3121-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3122-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3123-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3127-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "17:35",
+        "waktuBerakhir": "20:20"
+    },
+    {
+        "id": "3128-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3129-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3130-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3131-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3132-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3133-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "17:35",
+        "waktuBerakhir": "19:25"
+    },
+    {
+        "id": "3134-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "16:40",
+        "waktuBerakhir": "20:20"
+    },
+    {
+        "id": "3135-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3137-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3138-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3139-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3140-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3141-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3142-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3145-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3146-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3147-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3148-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3152-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "17:35",
+        "waktuBerakhir": "19:25"
+    },
+    {
+        "id": "3159-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3160A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3160B",
+        "id_kp": "B",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3161-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3162-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3164A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3164B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3165A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3165B",
+        "id_kp": "B",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3166A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3166B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3167Z",
+        "id_kp": "Z",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3168-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3169-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3169-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3170-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3171-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3172-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3173Z",
+        "id_kp": "Z",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3174-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3175-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3176A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3176B",
+        "id_kp": "B",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3177A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3177B",
+        "id_kp": "B",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3178-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3179-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3180-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3181A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3181B",
+        "id_kp": "B",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3182A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3182B",
+        "id_kp": "B",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3183Z",
+        "id_kp": "Z",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3184A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3184B",
+        "id_kp": "B",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3185A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3185B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3186-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3187A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3187B",
+        "id_kp": "B",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3188Z",
+        "id_kp": "Z",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3189-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3190-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3191-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3192-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "07:55"
+    },
+    {
+        "id": "3193-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3194-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3198Z",
+        "id_kp": "Z",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3200-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3201-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3202-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3204-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3205MO",
+        "id_kp": "MO",
+        "hari": "Sabtu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3210-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3211Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3212Z",
+        "id_kp": "Z",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3213MO",
+        "id_kp": "MO",
+        "hari": "Sabtu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3214A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3214B",
+        "id_kp": "B",
+        "hari": "Senin",
+        "waktuMulai": "17:35",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3214C",
+        "id_kp": "C",
+        "hari": "Kamis",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3214D",
+        "id_kp": "D",
+        "hari": "Kamis",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3214E",
+        "id_kp": "E",
+        "hari": "Senin",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3214Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "11:35",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3215Z",
+        "id_kp": "Z",
+        "hari": "Selasa",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3215ZA",
+        "id_kp": "ZA",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3215ZB",
+        "id_kp": "ZB",
+        "hari": "Rabu",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3215ZC",
+        "id_kp": "ZC",
+        "hari": "Rabu",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3216A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3216B",
+        "id_kp": "B",
+        "hari": "Selasa",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3216C",
+        "id_kp": "C",
+        "hari": "Rabu",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3216Z",
+        "id_kp": "Z",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3219A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3219B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3219Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3221A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3221B",
+        "id_kp": "B",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3221Z",
+        "id_kp": "Z",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3222Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3222ZA",
+        "id_kp": "ZA",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3222ZB",
+        "id_kp": "ZB",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3222ZC",
+        "id_kp": "ZC",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3223A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3223A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3223B",
+        "id_kp": "B",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3223B",
+        "id_kp": "B",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3223C",
+        "id_kp": "C",
+        "hari": "Rabu",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3223C",
+        "id_kp": "C",
+        "hari": "Senin",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3223D",
+        "id_kp": "D",
+        "hari": "Selasa",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3223D",
+        "id_kp": "D",
+        "hari": "Kamis",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3223E",
+        "id_kp": "E",
+        "hari": "Rabu",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3223E",
+        "id_kp": "E",
+        "hari": "Senin",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3223Z",
+        "id_kp": "Z",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3223Z",
+        "id_kp": "Z",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3224A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3224A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3224B",
+        "id_kp": "B",
+        "hari": "Senin",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3224B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3224C",
+        "id_kp": "C",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3224C",
+        "id_kp": "C",
+        "hari": "Senin",
+        "waktuMulai": "13:55",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3224D",
+        "id_kp": "D",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3224D",
+        "id_kp": "D",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3224Z",
+        "id_kp": "Z",
+        "hari": "Kamis",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3224Z",
+        "id_kp": "Z",
+        "hari": "Selasa",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "11:35"
+    },
+    {
+        "id": "3228A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3228B",
+        "id_kp": "B",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3229A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3231A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3231B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3231Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3232Z",
+        "id_kp": "Z",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3232ZA",
+        "id_kp": "ZA",
+        "hari": "Kamis",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3232ZB",
+        "id_kp": "ZB",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3232ZC",
+        "id_kp": "ZC",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3232ZD",
+        "id_kp": "ZD",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3233A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3234A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3234B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3234C",
+        "id_kp": "C",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3234D",
+        "id_kp": "D",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3234Z",
+        "id_kp": "Z",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3235A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3235B",
+        "id_kp": "B",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3235C",
+        "id_kp": "C",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3235MO",
+        "id_kp": "MO",
+        "hari": "Sabtu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3235Z",
+        "id_kp": "Z",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3236A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3237A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3237B",
+        "id_kp": "B",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3238A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3238B",
+        "id_kp": "B",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3239ZA",
+        "id_kp": "ZA",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3239ZB",
+        "id_kp": "ZB",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3239ZC",
+        "id_kp": "ZC",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3240A",
+        "id_kp": "A",
+        "hari": "Sabtu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3240MA",
+        "id_kp": "MA",
+        "hari": "Sabtu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3241A",
+        "id_kp": "A",
+        "hari": "Sabtu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3246-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3247MA",
+        "id_kp": "MA",
+        "hari": "Sabtu",
+        "waktuMulai": "11:35",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3248MA",
+        "id_kp": "MA",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "20:20"
+    },
+    {
+        "id": "3267MA",
+        "id_kp": "MA",
+        "hari": "Sabtu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3271MA",
+        "id_kp": "MA",
+        "hari": "Sabtu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "11:35"
+    },
+    {
+        "id": "3271MO",
+        "id_kp": "MO",
+        "hari": "Sabtu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "11:35"
+    },
+    {
+        "id": "3272MA",
+        "id_kp": "MA",
+        "hari": "Sabtu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "11:35"
+    },
+    {
+        "id": "3273A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3273B",
+        "id_kp": "B",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3275-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3276-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3277-",
+        "id_kp": "-",
+        "hari": "Sabtu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3279-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3281-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3285Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3288A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3289A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3290A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3291A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3295A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3297A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3297Z",
+        "id_kp": "Z",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3299A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3301A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3301B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3301Z",
+        "id_kp": "Z",
+        "hari": "Kamis",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3305Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3308Z",
+        "id_kp": "Z",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3309Z",
+        "id_kp": "Z",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3313Z",
+        "id_kp": "Z",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3315A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3315MO",
+        "id_kp": "MO",
+        "hari": "Sabtu",
+        "waktuMulai": "17:35",
+        "waktuBerakhir": "20:20"
+    },
+    {
+        "id": "3320A",
+        "id_kp": "A",
+        "hari": "Sabtu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3325A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3327A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3328A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3329A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3330A",
+        "id_kp": "A",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3331A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3332A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3333A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3337A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3338A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3339A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3340MO",
+        "id_kp": "MO",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3342P",
+        "id_kp": "P",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3345P",
+        "id_kp": "P",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3346P",
+        "id_kp": "P",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3347P",
+        "id_kp": "P",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3351P",
+        "id_kp": "P",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3352P",
+        "id_kp": "P",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3357P",
+        "id_kp": "P",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3357Q",
+        "id_kp": "Q",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3358P",
+        "id_kp": "P",
+        "hari": "Jumat",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3365P",
+        "id_kp": "P",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3365Q",
+        "id_kp": "Q",
+        "hari": "Selasa",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3366-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3367-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3371-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3372-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3373-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3374-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3375-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3376Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3377-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3417-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3418-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3420-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3421Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3422A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3422B",
+        "id_kp": "B",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3422Z",
+        "id_kp": "Z",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3423A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3423B",
+        "id_kp": "B",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3423C",
+        "id_kp": "C",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3423D",
+        "id_kp": "D",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3423E",
+        "id_kp": "E",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3423F",
+        "id_kp": "F",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3423G",
+        "id_kp": "G",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3423H",
+        "id_kp": "H",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3423I",
+        "id_kp": "I",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3423J",
+        "id_kp": "J",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3428E1",
+        "id_kp": "E1",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3429E2",
+        "id_kp": "E2",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3431E4",
+        "id_kp": "E4",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3431E5",
+        "id_kp": "E5",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3431E6",
+        "id_kp": "E6",
+        "hari": "Kamis",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3431E7",
+        "id_kp": "E7",
+        "hari": "Kamis",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3431E7",
+        "id_kp": "E7",
+        "hari": "Kamis",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3431E8",
+        "id_kp": "E8",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3431E9",
+        "id_kp": "E9",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3432E3",
+        "id_kp": "E3",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3468E1",
+        "id_kp": "E1",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3469E1",
+        "id_kp": "E1",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3470E4",
+        "id_kp": "E4",
+        "hari": "Selasa",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3471E6",
+        "id_kp": "E6",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3471E7",
+        "id_kp": "E7",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3471E8",
+        "id_kp": "E8",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3471E9",
+        "id_kp": "E9",
+        "hari": "Kamis",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3472E1",
+        "id_kp": "E1",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3473E1",
+        "id_kp": "E1",
+        "hari": "Senin",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3473E1",
+        "id_kp": "E1",
+        "hari": "Senin",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3474E1",
+        "id_kp": "E1",
+        "hari": "Senin",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3475E4",
+        "id_kp": "E4",
+        "hari": "Selasa",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3476E6",
+        "id_kp": "E6",
+        "hari": "Rabu",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3476E7",
+        "id_kp": "E7",
+        "hari": "Kamis",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3476E8",
+        "id_kp": "E8",
+        "hari": "Jumat",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3476E9",
+        "id_kp": "E9",
+        "hari": "Jumat",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3477E1",
+        "id_kp": "E1",
+        "hari": "Senin",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3478E1",
+        "id_kp": "E1",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3480E2",
+        "id_kp": "E2",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3480E3",
+        "id_kp": "E3",
+        "hari": "Selasa",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3482E1",
+        "id_kp": "E1",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3482E1",
+        "id_kp": "E1",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3484MA",
+        "id_kp": "MA",
+        "hari": "Sabtu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3485-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3486-",
+        "id_kp": "-",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3487MO",
+        "id_kp": "MO",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3490MO",
+        "id_kp": "MO",
+        "hari": "Sabtu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3491MO",
+        "id_kp": "MO",
+        "hari": "Sabtu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3492MO",
+        "id_kp": "MO",
+        "hari": "Sabtu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3493E1",
+        "id_kp": "E1",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3494D1",
+        "id_kp": "D1",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3495D1",
+        "id_kp": "D1",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3496C1",
+        "id_kp": "C1",
+        "hari": "Rabu",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3497D1",
+        "id_kp": "D1",
+        "hari": "Senin",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3498C1",
+        "id_kp": "C1",
+        "hari": "Kamis",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "18:30"
+    },
+    {
+        "id": "3500A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3500B",
+        "id_kp": "B",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3500C",
+        "id_kp": "C",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3500Z",
+        "id_kp": "Z",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3501A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3502-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3502-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3503-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3504A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3505-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "13:55",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3506A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "16:40",
+        "waktuBerakhir": "19:25"
+    },
+    {
+        "id": "3507A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "07:55",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3508-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "16:40",
+        "waktuBerakhir": "19:25"
+    },
+    {
+        "id": "3509-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3510-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "13:55",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3511-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3512A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3513A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3514A",
+        "id_kp": "A",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3515A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3516A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "09:45"
+    },
+    {
+        "id": "3517A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "15:45"
+    },
+    {
+        "id": "3518A",
+        "id_kp": "A",
+        "hari": "Rabu",
+        "waktuMulai": "09:45",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3519-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3520A",
+        "id_kp": "A",
+        "hari": "Selasa",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3520B",
+        "id_kp": "B",
+        "hari": "Selasa",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3520C",
+        "id_kp": "C",
+        "hari": "Selasa",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3520D",
+        "id_kp": "D",
+        "hari": "Selasa",
+        "waktuMulai": "10:40",
+        "waktuBerakhir": "12:30"
+    },
+    {
+        "id": "3520E",
+        "id_kp": "E",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3520F",
+        "id_kp": "F",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3520G",
+        "id_kp": "G",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3520H",
+        "id_kp": "H",
+        "hari": "Jumat",
+        "waktuMulai": "07:00",
+        "waktuBerakhir": "08:50"
+    },
+    {
+        "id": "3521-",
+        "id_kp": "-",
+        "hari": "Rabu",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    },
+    {
+        "id": "3522-",
+        "id_kp": "-",
+        "hari": "Kamis",
+        "waktuMulai": "13:00",
+        "waktuBerakhir": "14:50"
+    },
+    {
+        "id": "3523-",
+        "id_kp": "-",
+        "hari": "Jumat",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3524-",
+        "id_kp": "-",
+        "hari": "Selasa",
+        "waktuMulai": "15:45",
+        "waktuBerakhir": "17:35"
+    },
+    {
+        "id": "3525A",
+        "id_kp": "A",
+        "hari": "Senin",
+        "waktuMulai": "08:50",
+        "waktuBerakhir": "10:40"
+    },
+    {
+        "id": "3526C",
+        "id_kp": "C",
+        "hari": "Selasa",
+        "waktuMulai": "14:50",
+        "waktuBerakhir": "16:40"
+    }
+]

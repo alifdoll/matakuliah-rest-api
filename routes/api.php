@@ -2,8 +2,10 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-Use App\Http\Controllers\ProductController;
-Use App\Lecture;
+use App\Http\Controllers\ProductController;
+use App\Lecture;
+use App\Group;
+use App\Schedule;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,8 +19,8 @@ Use App\Lecture;
 */
 
 
-Route::get('/lectures', function() {
-    return Lecture::all();
+Route::get('/lectures', function () {
+    return Group::findOrFail('2508')->lecture;
 });
 
 // Route::get('/products', 'ProductController@index');

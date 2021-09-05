@@ -1,0 +1,1982 @@
+[
+    {
+        "id_mk": "2508",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "2512",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "2607",
+        "kode": "-",
+        "kuota": "41"
+    },
+    {
+        "id_mk": "2668",
+        "kode": "-",
+        "kuota": "12"
+    },
+    {
+        "id_mk": "2671",
+        "kode": "A",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "2876",
+        "kode": "-",
+        "kuota": "21"
+    },
+    {
+        "id_mk": "2885",
+        "kode": "-",
+        "kuota": "16"
+    },
+    {
+        "id_mk": "2888",
+        "kode": "-",
+        "kuota": "16"
+    },
+    {
+        "id_mk": "2889",
+        "kode": "-",
+        "kuota": "28"
+    },
+    {
+        "id_mk": "2890",
+        "kode": "-",
+        "kuota": "16"
+    },
+    {
+        "id_mk": "2891",
+        "kode": "-",
+        "kuota": "21"
+    },
+    {
+        "id_mk": "2893",
+        "kode": "-",
+        "kuota": "21"
+    },
+    {
+        "id_mk": "2901",
+        "kode": "-",
+        "kuota": "20"
+    },
+    {
+        "id_mk": "2902",
+        "kode": "-",
+        "kuota": "33"
+    },
+    {
+        "id_mk": "2903",
+        "kode": "-",
+        "kuota": "9"
+    },
+    {
+        "id_mk": "2904",
+        "kode": "-",
+        "kuota": "16"
+    },
+    {
+        "id_mk": "2906",
+        "kode": "-",
+        "kuota": "9"
+    },
+    {
+        "id_mk": "2907",
+        "kode": "-",
+        "kuota": "18"
+    },
+    {
+        "id_mk": "2921",
+        "kode": "MA",
+        "kuota": "10"
+    },
+    {
+        "id_mk": "2922",
+        "kode": "MA",
+        "kuota": "10"
+    },
+    {
+        "id_mk": "2953",
+        "kode": "-",
+        "kuota": "20"
+    },
+    {
+        "id_mk": "2996",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "2997",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "2998",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3003",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3008",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3009",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3010",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3011",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3012",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3013",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3014",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3015",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3016",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3019",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3020",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3021",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3024",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3025",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3039",
+        "kode": "A",
+        "kuota": "35"
+    },
+    {
+        "id_mk": "3039",
+        "kode": "B",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3039",
+        "kode": "C",
+        "kuota": "35"
+    },
+    {
+        "id_mk": "3039",
+        "kode": "D",
+        "kuota": "35"
+    },
+    {
+        "id_mk": "3040",
+        "kode": "A",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3040",
+        "kode": "B",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3040",
+        "kode": "C",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3043",
+        "kode": "A",
+        "kuota": "20"
+    },
+    {
+        "id_mk": "3044",
+        "kode": "A",
+        "kuota": "23"
+    },
+    {
+        "id_mk": "3045",
+        "kode": "A",
+        "kuota": "29"
+    },
+    {
+        "id_mk": "3045",
+        "kode": "B",
+        "kuota": "18"
+    },
+    {
+        "id_mk": "3046",
+        "kode": "A",
+        "kuota": "39"
+    },
+    {
+        "id_mk": "3049",
+        "kode": "A",
+        "kuota": "3"
+    },
+    {
+        "id_mk": "3049",
+        "kode": "B",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3053",
+        "kode": "A",
+        "kuota": "24"
+    },
+    {
+        "id_mk": "3053",
+        "kode": "B",
+        "kuota": "24"
+    },
+    {
+        "id_mk": "3054",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3057",
+        "kode": "A",
+        "kuota": "41"
+    },
+    {
+        "id_mk": "3060",
+        "kode": "A",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3060",
+        "kode": "B",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3062",
+        "kode": "-",
+        "kuota": "29"
+    },
+    {
+        "id_mk": "3063",
+        "kode": "-",
+        "kuota": "28"
+    },
+    {
+        "id_mk": "3064",
+        "kode": "-",
+        "kuota": "19"
+    },
+    {
+        "id_mk": "3065",
+        "kode": "-",
+        "kuota": "25"
+    },
+    {
+        "id_mk": "3067",
+        "kode": "-",
+        "kuota": "12"
+    },
+    {
+        "id_mk": "3068",
+        "kode": "-",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3069",
+        "kode": "-",
+        "kuota": "20"
+    },
+    {
+        "id_mk": "3074",
+        "kode": "-",
+        "kuota": "25"
+    },
+    {
+        "id_mk": "3075",
+        "kode": "-",
+        "kuota": "21"
+    },
+    {
+        "id_mk": "3076",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3077",
+        "kode": "-",
+        "kuota": "17"
+    },
+    {
+        "id_mk": "3078",
+        "kode": "-",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3079",
+        "kode": "-",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3080",
+        "kode": "-",
+        "kuota": "18"
+    },
+    {
+        "id_mk": "3082",
+        "kode": "-",
+        "kuota": "19"
+    },
+    {
+        "id_mk": "3083",
+        "kode": "-",
+        "kuota": "17"
+    },
+    {
+        "id_mk": "3084",
+        "kode": "-",
+        "kuota": "18"
+    },
+    {
+        "id_mk": "3088",
+        "kode": "-",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3089",
+        "kode": "-",
+        "kuota": "19"
+    },
+    {
+        "id_mk": "3094",
+        "kode": "-",
+        "kuota": "26"
+    },
+    {
+        "id_mk": "3095",
+        "kode": "-",
+        "kuota": "27"
+    },
+    {
+        "id_mk": "3096",
+        "kode": "-",
+        "kuota": "28"
+    },
+    {
+        "id_mk": "3099",
+        "kode": "-",
+        "kuota": "24"
+    },
+    {
+        "id_mk": "3107",
+        "kode": "-",
+        "kuota": "28"
+    },
+    {
+        "id_mk": "3109",
+        "kode": "-",
+        "kuota": "58"
+    },
+    {
+        "id_mk": "3111",
+        "kode": "Z",
+        "kuota": "32"
+    },
+    {
+        "id_mk": "3119",
+        "kode": "A",
+        "kuota": "8"
+    },
+    {
+        "id_mk": "3119",
+        "kode": "B",
+        "kuota": "17"
+    },
+    {
+        "id_mk": "3120",
+        "kode": "Z",
+        "kuota": "15"
+    },
+    {
+        "id_mk": "3121",
+        "kode": "-",
+        "kuota": "7"
+    },
+    {
+        "id_mk": "3122",
+        "kode": "-",
+        "kuota": "58"
+    },
+    {
+        "id_mk": "3123",
+        "kode": "-",
+        "kuota": "8"
+    },
+    {
+        "id_mk": "3127",
+        "kode": "-",
+        "kuota": "68"
+    },
+    {
+        "id_mk": "3128",
+        "kode": "-",
+        "kuota": "63"
+    },
+    {
+        "id_mk": "3129",
+        "kode": "-",
+        "kuota": "23"
+    },
+    {
+        "id_mk": "3130",
+        "kode": "-",
+        "kuota": "19"
+    },
+    {
+        "id_mk": "3131",
+        "kode": "-",
+        "kuota": "30"
+    },
+    {
+        "id_mk": "3132",
+        "kode": "-",
+        "kuota": "61"
+    },
+    {
+        "id_mk": "3133",
+        "kode": "-",
+        "kuota": "28"
+    },
+    {
+        "id_mk": "3134",
+        "kode": "-",
+        "kuota": "42"
+    },
+    {
+        "id_mk": "3135",
+        "kode": "-",
+        "kuota": "11"
+    },
+    {
+        "id_mk": "3137",
+        "kode": "-",
+        "kuota": "34"
+    },
+    {
+        "id_mk": "3138",
+        "kode": "-",
+        "kuota": "23"
+    },
+    {
+        "id_mk": "3139",
+        "kode": "-",
+        "kuota": "34"
+    },
+    {
+        "id_mk": "3140",
+        "kode": "-",
+        "kuota": "26"
+    },
+    {
+        "id_mk": "3141",
+        "kode": "-",
+        "kuota": "30"
+    },
+    {
+        "id_mk": "3142",
+        "kode": "-",
+        "kuota": "32"
+    },
+    {
+        "id_mk": "3145",
+        "kode": "-",
+        "kuota": "38"
+    },
+    {
+        "id_mk": "3146",
+        "kode": "-",
+        "kuota": "35"
+    },
+    {
+        "id_mk": "3147",
+        "kode": "-",
+        "kuota": "36"
+    },
+    {
+        "id_mk": "3148",
+        "kode": "-",
+        "kuota": "35"
+    },
+    {
+        "id_mk": "3152",
+        "kode": "-",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3159",
+        "kode": "-",
+        "kuota": "11"
+    },
+    {
+        "id_mk": "3160",
+        "kode": "A",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3160",
+        "kode": "B",
+        "kuota": "8"
+    },
+    {
+        "id_mk": "3161",
+        "kode": "-",
+        "kuota": "54"
+    },
+    {
+        "id_mk": "3162",
+        "kode": "-",
+        "kuota": "60"
+    },
+    {
+        "id_mk": "3164",
+        "kode": "A",
+        "kuota": "10"
+    },
+    {
+        "id_mk": "3164",
+        "kode": "B",
+        "kuota": "39"
+    },
+    {
+        "id_mk": "3165",
+        "kode": "A",
+        "kuota": "3"
+    },
+    {
+        "id_mk": "3165",
+        "kode": "B",
+        "kuota": "43"
+    },
+    {
+        "id_mk": "3166",
+        "kode": "A",
+        "kuota": "13"
+    },
+    {
+        "id_mk": "3166",
+        "kode": "B",
+        "kuota": "60"
+    },
+    {
+        "id_mk": "3167",
+        "kode": "Z",
+        "kuota": "53"
+    },
+    {
+        "id_mk": "3168",
+        "kode": "-",
+        "kuota": "53"
+    },
+    {
+        "id_mk": "3169",
+        "kode": "-",
+        "kuota": "11"
+    },
+    {
+        "id_mk": "3170",
+        "kode": "-",
+        "kuota": "50"
+    },
+    {
+        "id_mk": "3171",
+        "kode": "-",
+        "kuota": "43"
+    },
+    {
+        "id_mk": "3172",
+        "kode": "-",
+        "kuota": "32"
+    },
+    {
+        "id_mk": "3173",
+        "kode": "Z",
+        "kuota": "12"
+    },
+    {
+        "id_mk": "3174",
+        "kode": "-",
+        "kuota": "24"
+    },
+    {
+        "id_mk": "3175",
+        "kode": "-",
+        "kuota": "12"
+    },
+    {
+        "id_mk": "3176",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3176",
+        "kode": "B",
+        "kuota": "36"
+    },
+    {
+        "id_mk": "3177",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3177",
+        "kode": "B",
+        "kuota": "35"
+    },
+    {
+        "id_mk": "3178",
+        "kode": "-",
+        "kuota": "37"
+    },
+    {
+        "id_mk": "3179",
+        "kode": "-",
+        "kuota": "36"
+    },
+    {
+        "id_mk": "3180",
+        "kode": "-",
+        "kuota": "40"
+    },
+    {
+        "id_mk": "3181",
+        "kode": "A",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3181",
+        "kode": "B",
+        "kuota": "26"
+    },
+    {
+        "id_mk": "3182",
+        "kode": "A",
+        "kuota": "32"
+    },
+    {
+        "id_mk": "3182",
+        "kode": "B",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3183",
+        "kode": "Z",
+        "kuota": "47"
+    },
+    {
+        "id_mk": "3184",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3184",
+        "kode": "B",
+        "kuota": "51"
+    },
+    {
+        "id_mk": "3185",
+        "kode": "A",
+        "kuota": "40"
+    },
+    {
+        "id_mk": "3185",
+        "kode": "B",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3186",
+        "kode": "-",
+        "kuota": "25"
+    },
+    {
+        "id_mk": "3187",
+        "kode": "A",
+        "kuota": "7"
+    },
+    {
+        "id_mk": "3187",
+        "kode": "B",
+        "kuota": "42"
+    },
+    {
+        "id_mk": "3188",
+        "kode": "Z",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3189",
+        "kode": "-",
+        "kuota": "48"
+    },
+    {
+        "id_mk": "3190",
+        "kode": "-",
+        "kuota": "45"
+    },
+    {
+        "id_mk": "3191",
+        "kode": "-",
+        "kuota": "41"
+    },
+    {
+        "id_mk": "3192",
+        "kode": "-",
+        "kuota": "100"
+    },
+    {
+        "id_mk": "3193",
+        "kode": "-",
+        "kuota": "34"
+    },
+    {
+        "id_mk": "3194",
+        "kode": "-",
+        "kuota": "86"
+    },
+    {
+        "id_mk": "3198",
+        "kode": "Z",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3200",
+        "kode": "-",
+        "kuota": "27"
+    },
+    {
+        "id_mk": "3201",
+        "kode": "-",
+        "kuota": "10"
+    },
+    {
+        "id_mk": "3202",
+        "kode": "-",
+        "kuota": "38"
+    },
+    {
+        "id_mk": "3204",
+        "kode": "-",
+        "kuota": "15"
+    },
+    {
+        "id_mk": "3205",
+        "kode": "MO",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3210",
+        "kode": "-",
+        "kuota": "47"
+    },
+    {
+        "id_mk": "3211",
+        "kode": "Z",
+        "kuota": "30"
+    },
+    {
+        "id_mk": "3212",
+        "kode": "Z",
+        "kuota": "33"
+    },
+    {
+        "id_mk": "3213",
+        "kode": "MO",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3214",
+        "kode": "A",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3214",
+        "kode": "B",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3214",
+        "kode": "C",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3214",
+        "kode": "D",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3214",
+        "kode": "E",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3214",
+        "kode": "Z",
+        "kuota": "8"
+    },
+    {
+        "id_mk": "3215",
+        "kode": "Z",
+        "kuota": "10"
+    },
+    {
+        "id_mk": "3215",
+        "kode": "ZA",
+        "kuota": "63"
+    },
+    {
+        "id_mk": "3215",
+        "kode": "ZB",
+        "kuota": "69"
+    },
+    {
+        "id_mk": "3215",
+        "kode": "ZC",
+        "kuota": "69"
+    },
+    {
+        "id_mk": "3216",
+        "kode": "A",
+        "kuota": "53"
+    },
+    {
+        "id_mk": "3216",
+        "kode": "B",
+        "kuota": "62"
+    },
+    {
+        "id_mk": "3216",
+        "kode": "C",
+        "kuota": "68"
+    },
+    {
+        "id_mk": "3216",
+        "kode": "Z",
+        "kuota": "9"
+    },
+    {
+        "id_mk": "3219",
+        "kode": "A",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3219",
+        "kode": "B",
+        "kuota": "3"
+    },
+    {
+        "id_mk": "3219",
+        "kode": "Z",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3221",
+        "kode": "A",
+        "kuota": "16"
+    },
+    {
+        "id_mk": "3221",
+        "kode": "B",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3221",
+        "kode": "Z",
+        "kuota": "7"
+    },
+    {
+        "id_mk": "3222",
+        "kode": "Z",
+        "kuota": "6"
+    },
+    {
+        "id_mk": "3222",
+        "kode": "ZA",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3222",
+        "kode": "ZB",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3222",
+        "kode": "ZC",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3223",
+        "kode": "A",
+        "kuota": "16"
+    },
+    {
+        "id_mk": "3223",
+        "kode": "B",
+        "kuota": "21"
+    },
+    {
+        "id_mk": "3223",
+        "kode": "C",
+        "kuota": "4"
+    },
+    {
+        "id_mk": "3223",
+        "kode": "D",
+        "kuota": "26"
+    },
+    {
+        "id_mk": "3223",
+        "kode": "E",
+        "kuota": "12"
+    },
+    {
+        "id_mk": "3223",
+        "kode": "Z",
+        "kuota": "7"
+    },
+    {
+        "id_mk": "3224",
+        "kode": "A",
+        "kuota": "3"
+    },
+    {
+        "id_mk": "3224",
+        "kode": "B",
+        "kuota": "21"
+    },
+    {
+        "id_mk": "3224",
+        "kode": "C",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3224",
+        "kode": "D",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3224",
+        "kode": "Z",
+        "kuota": "4"
+    },
+    {
+        "id_mk": "3228",
+        "kode": "A",
+        "kuota": "9"
+    },
+    {
+        "id_mk": "3228",
+        "kode": "B",
+        "kuota": "35"
+    },
+    {
+        "id_mk": "3229",
+        "kode": "A",
+        "kuota": "50"
+    },
+    {
+        "id_mk": "3231",
+        "kode": "A",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3231",
+        "kode": "B",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3231",
+        "kode": "Z",
+        "kuota": "8"
+    },
+    {
+        "id_mk": "3232",
+        "kode": "Z",
+        "kuota": "28"
+    },
+    {
+        "id_mk": "3232",
+        "kode": "ZA",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3232",
+        "kode": "ZB",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3232",
+        "kode": "ZC",
+        "kuota": "6"
+    },
+    {
+        "id_mk": "3232",
+        "kode": "ZD",
+        "kuota": "10"
+    },
+    {
+        "id_mk": "3233",
+        "kode": "A",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3234",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3234",
+        "kode": "B",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3234",
+        "kode": "C",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3234",
+        "kode": "D",
+        "kuota": "16"
+    },
+    {
+        "id_mk": "3234",
+        "kode": "Z",
+        "kuota": "23"
+    },
+    {
+        "id_mk": "3235",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3235",
+        "kode": "B",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3235",
+        "kode": "C",
+        "kuota": "32"
+    },
+    {
+        "id_mk": "3235",
+        "kode": "MO",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3235",
+        "kode": "Z",
+        "kuota": "8"
+    },
+    {
+        "id_mk": "3236",
+        "kode": "A",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3237",
+        "kode": "A",
+        "kuota": "10"
+    },
+    {
+        "id_mk": "3237",
+        "kode": "B",
+        "kuota": "40"
+    },
+    {
+        "id_mk": "3238",
+        "kode": "A",
+        "kuota": "4"
+    },
+    {
+        "id_mk": "3238",
+        "kode": "B",
+        "kuota": "24"
+    },
+    {
+        "id_mk": "3239",
+        "kode": "ZA",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3239",
+        "kode": "ZB",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3239",
+        "kode": "ZC",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3240",
+        "kode": "A",
+        "kuota": "244"
+    },
+    {
+        "id_mk": "3240",
+        "kode": "MA",
+        "kuota": "9"
+    },
+    {
+        "id_mk": "3241",
+        "kode": "A",
+        "kuota": "767"
+    },
+    {
+        "id_mk": "3246",
+        "kode": "-",
+        "kuota": "23"
+    },
+    {
+        "id_mk": "3247",
+        "kode": "MA",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3248",
+        "kode": "MA",
+        "kuota": "6"
+    },
+    {
+        "id_mk": "3267",
+        "kode": "MA",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3271",
+        "kode": "MA",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3271",
+        "kode": "MO",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3272",
+        "kode": "MA",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3273",
+        "kode": "A",
+        "kuota": "40"
+    },
+    {
+        "id_mk": "3273",
+        "kode": "B",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3275",
+        "kode": "-",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3276",
+        "kode": "-",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3277",
+        "kode": "-",
+        "kuota": "38"
+    },
+    {
+        "id_mk": "3279",
+        "kode": "-",
+        "kuota": "40"
+    },
+    {
+        "id_mk": "3281",
+        "kode": "-",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3285",
+        "kode": "Z",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3288",
+        "kode": "A",
+        "kuota": "27"
+    },
+    {
+        "id_mk": "3289",
+        "kode": "A",
+        "kuota": "49"
+    },
+    {
+        "id_mk": "3290",
+        "kode": "A",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3291",
+        "kode": "A",
+        "kuota": "46"
+    },
+    {
+        "id_mk": "3295",
+        "kode": "A",
+        "kuota": "60"
+    },
+    {
+        "id_mk": "3297",
+        "kode": "A",
+        "kuota": "41"
+    },
+    {
+        "id_mk": "3297",
+        "kode": "Z",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3299",
+        "kode": "A",
+        "kuota": "12"
+    },
+    {
+        "id_mk": "3301",
+        "kode": "A",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3301",
+        "kode": "B",
+        "kuota": "4"
+    },
+    {
+        "id_mk": "3301",
+        "kode": "Z",
+        "kuota": "7"
+    },
+    {
+        "id_mk": "3305",
+        "kode": "Z",
+        "kuota": "6"
+    },
+    {
+        "id_mk": "3308",
+        "kode": "Z",
+        "kuota": "23"
+    },
+    {
+        "id_mk": "3309",
+        "kode": "Z",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3313",
+        "kode": "Z",
+        "kuota": "3"
+    },
+    {
+        "id_mk": "3315",
+        "kode": "A",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3315",
+        "kode": "MO",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3320",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3325",
+        "kode": "A",
+        "kuota": "15"
+    },
+    {
+        "id_mk": "3327",
+        "kode": "A",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3328",
+        "kode": "A",
+        "kuota": "10"
+    },
+    {
+        "id_mk": "3329",
+        "kode": "A",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3330",
+        "kode": "A",
+        "kuota": "30"
+    },
+    {
+        "id_mk": "3331",
+        "kode": "A",
+        "kuota": "18"
+    },
+    {
+        "id_mk": "3332",
+        "kode": "A",
+        "kuota": "25"
+    },
+    {
+        "id_mk": "3333",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3337",
+        "kode": "A",
+        "kuota": "8"
+    },
+    {
+        "id_mk": "3338",
+        "kode": "A",
+        "kuota": "12"
+    },
+    {
+        "id_mk": "3339",
+        "kode": "A",
+        "kuota": "16"
+    },
+    {
+        "id_mk": "3340",
+        "kode": "MO",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3342",
+        "kode": "P",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3345",
+        "kode": "P",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3346",
+        "kode": "P",
+        "kuota": "7"
+    },
+    {
+        "id_mk": "3347",
+        "kode": "P",
+        "kuota": "6"
+    },
+    {
+        "id_mk": "3351",
+        "kode": "P",
+        "kuota": "23"
+    },
+    {
+        "id_mk": "3352",
+        "kode": "P",
+        "kuota": "30"
+    },
+    {
+        "id_mk": "3357",
+        "kode": "P",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3357",
+        "kode": "Q",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3358",
+        "kode": "P",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3365",
+        "kode": "P",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3365",
+        "kode": "Q",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3366",
+        "kode": "-",
+        "kuota": "30"
+    },
+    {
+        "id_mk": "3367",
+        "kode": "-",
+        "kuota": "49"
+    },
+    {
+        "id_mk": "3371",
+        "kode": "-",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3372",
+        "kode": "-",
+        "kuota": "23"
+    },
+    {
+        "id_mk": "3373",
+        "kode": "-",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3374",
+        "kode": "-",
+        "kuota": "20"
+    },
+    {
+        "id_mk": "3375",
+        "kode": "-",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3376",
+        "kode": "Z",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3377",
+        "kode": "-",
+        "kuota": "22"
+    },
+    {
+        "id_mk": "3417",
+        "kode": "-",
+        "kuota": "18"
+    },
+    {
+        "id_mk": "3418",
+        "kode": "-",
+        "kuota": "40"
+    },
+    {
+        "id_mk": "3420",
+        "kode": "-",
+        "kuota": "13"
+    },
+    {
+        "id_mk": "3421",
+        "kode": "Z",
+        "kuota": "38"
+    },
+    {
+        "id_mk": "3422",
+        "kode": "A",
+        "kuota": "3"
+    },
+    {
+        "id_mk": "3422",
+        "kode": "B",
+        "kuota": "4"
+    },
+    {
+        "id_mk": "3422",
+        "kode": "Z",
+        "kuota": "4"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "B",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "C",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "D",
+        "kuota": "19"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "E",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "F",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "G",
+        "kuota": "18"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "H",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "I",
+        "kuota": "28"
+    },
+    {
+        "id_mk": "3423",
+        "kode": "J",
+        "kuota": "23"
+    },
+    {
+        "id_mk": "3428",
+        "kode": "E1",
+        "kuota": "55"
+    },
+    {
+        "id_mk": "3429",
+        "kode": "E2",
+        "kuota": "55"
+    },
+    {
+        "id_mk": "3431",
+        "kode": "E4",
+        "kuota": "51"
+    },
+    {
+        "id_mk": "3431",
+        "kode": "E5",
+        "kuota": "54"
+    },
+    {
+        "id_mk": "3431",
+        "kode": "E6",
+        "kuota": "55"
+    },
+    {
+        "id_mk": "3431",
+        "kode": "E7",
+        "kuota": "55"
+    },
+    {
+        "id_mk": "3431",
+        "kode": "E8",
+        "kuota": "55"
+    },
+    {
+        "id_mk": "3431",
+        "kode": "E9",
+        "kuota": "52"
+    },
+    {
+        "id_mk": "3432",
+        "kode": "E3",
+        "kuota": "55"
+    },
+    {
+        "id_mk": "3468",
+        "kode": "E1",
+        "kuota": "8"
+    },
+    {
+        "id_mk": "3469",
+        "kode": "E1",
+        "kuota": "32"
+    },
+    {
+        "id_mk": "3470",
+        "kode": "E4",
+        "kuota": "54"
+    },
+    {
+        "id_mk": "3471",
+        "kode": "E6",
+        "kuota": "27"
+    },
+    {
+        "id_mk": "3471",
+        "kode": "E7",
+        "kuota": "48"
+    },
+    {
+        "id_mk": "3471",
+        "kode": "E8",
+        "kuota": "42"
+    },
+    {
+        "id_mk": "3471",
+        "kode": "E9",
+        "kuota": "38"
+    },
+    {
+        "id_mk": "3472",
+        "kode": "E1",
+        "kuota": "18"
+    },
+    {
+        "id_mk": "3473",
+        "kode": "E1",
+        "kuota": "6"
+    },
+    {
+        "id_mk": "3474",
+        "kode": "E1",
+        "kuota": "31"
+    },
+    {
+        "id_mk": "3475",
+        "kode": "E4",
+        "kuota": "56"
+    },
+    {
+        "id_mk": "3476",
+        "kode": "E6",
+        "kuota": "46"
+    },
+    {
+        "id_mk": "3476",
+        "kode": "E7",
+        "kuota": "20"
+    },
+    {
+        "id_mk": "3476",
+        "kode": "E8",
+        "kuota": "57"
+    },
+    {
+        "id_mk": "3476",
+        "kode": "E9",
+        "kuota": "48"
+    },
+    {
+        "id_mk": "3477",
+        "kode": "E1",
+        "kuota": "19"
+    },
+    {
+        "id_mk": "3478",
+        "kode": "E1",
+        "kuota": "13"
+    },
+    {
+        "id_mk": "3480",
+        "kode": "E2",
+        "kuota": "29"
+    },
+    {
+        "id_mk": "3480",
+        "kode": "E3",
+        "kuota": "25"
+    },
+    {
+        "id_mk": "3482",
+        "kode": "E1",
+        "kuota": "24"
+    },
+    {
+        "id_mk": "3484",
+        "kode": "MA",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3485",
+        "kode": "-",
+        "kuota": "41"
+    },
+    {
+        "id_mk": "3486",
+        "kode": "-",
+        "kuota": "39"
+    },
+    {
+        "id_mk": "3487",
+        "kode": "MO",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3490",
+        "kode": "MO",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3491",
+        "kode": "MO",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3492",
+        "kode": "MO",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3493",
+        "kode": "E1",
+        "kuota": "34"
+    },
+    {
+        "id_mk": "3494",
+        "kode": "D1",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3495",
+        "kode": "D1",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3496",
+        "kode": "C1",
+        "kuota": "55"
+    },
+    {
+        "id_mk": "3497",
+        "kode": "D1",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3498",
+        "kode": "C1",
+        "kuota": "55"
+    },
+    {
+        "id_mk": "3500",
+        "kode": "A",
+        "kuota": "60"
+    },
+    {
+        "id_mk": "3500",
+        "kode": "B",
+        "kuota": "67"
+    },
+    {
+        "id_mk": "3500",
+        "kode": "C",
+        "kuota": "66"
+    },
+    {
+        "id_mk": "3500",
+        "kode": "Z",
+        "kuota": "29"
+    },
+    {
+        "id_mk": "3501",
+        "kode": "A",
+        "kuota": "1"
+    },
+    {
+        "id_mk": "3502",
+        "kode": "-",
+        "kuota": "11"
+    },
+    {
+        "id_mk": "3503",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3504",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3505",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3506",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3507",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3508",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3509",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3510",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3511",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3512",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3513",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3514",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3515",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3516",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3517",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3518",
+        "kode": "A",
+        "kuota": "0"
+    },
+    {
+        "id_mk": "3519",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3520",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3520",
+        "kode": "B",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3520",
+        "kode": "C",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3520",
+        "kode": "D",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3520",
+        "kode": "E",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3520",
+        "kode": "F",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3520",
+        "kode": "G",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3520",
+        "kode": "H",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3521",
+        "kode": "-",
+        "kuota": "2"
+    },
+    {
+        "id_mk": "3522",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3523",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3524",
+        "kode": "-",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3525",
+        "kode": "A",
+        "kuota": "5"
+    },
+    {
+        "id_mk": "3526",
+        "kode": "C",
+        "kuota": "5"
+    }
+]
