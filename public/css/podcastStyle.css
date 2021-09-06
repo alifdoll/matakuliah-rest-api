@@ -1,0 +1,173 @@
+html {
+    position: relative;
+}
+
+body {
+    font-family: 'Coolvetica', sans-serif !important;
+    background-color: #1F2022;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.jumbotron {
+    background-image: url("../asset/erkan\ utu.jpeg");
+    background-size: cover;
+    height: 800px;
+}
+
+.jumbotron h1 {
+    color: white;
+    width: 50%;
+    letter-spacing: 1px;
+    margin: 100px 0;
+}
+
+.btn-spotify {
+    border-radius: 50px;
+    color: black;
+    padding: 20px 27px 23px 27px;
+    font-size: 24px;
+    background-color: #34eb4f;
+    border: 4px #34eb4f solid;
+}
+
+.btn-spotify:hover {
+    transition: 0.5s all;
+    background-color: transparent;
+    color: white;
+}
+
+.jumbotron .title-desc {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+}
+
+.jumbotron .title-desc.display {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+/* section {
+    width: 100%;
+    min-height: 600px;
+    margin: 100px 0;
+}
+
+.content-new-episode img {
+    width: 350px;
+    height: 350px;
+}
+
+.content-new-episode h1 {
+    color: white;
+    margin: 70px 0;
+}
+
+.content-new-episode p {
+    color: white;
+    text-align: justify;
+    margin: 5px 0 50px 0;
+    font-size: 20px;
+} */
+
+.content-daftar-ppk {
+    width: 100%;
+    min-height: 400px;
+    margin: 150px 0 200px 0;
+}
+
+.content-daftar-ppk h1 {
+    color: white;
+    margin: 50px 0;
+}
+
+.content-daftar-ppk img {
+    width: 300px;
+    height: 300px;
+}
+
+.content-daftar-ppk .list-content {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+}
+
+.content-daftar-ppk .list-content.display {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.content-daftar-ppk .list-content a {
+    display: none;
+}
+
+.content-daftar-ppk p {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0 100px 0;
+}
+
+.social-media-ppk {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.social-media-ppk::before {
+    content: ' ';
+    width: 100%;
+    height: 700px;
+    background-image: url("../asset/neil-godding.jfif");
+    background-size: cover;
+    background-position: -100 100;
+    opacity: 0.3;
+    position: absolute;
+    display: block;
+}
+
+.social-media-ppk h1{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 60px;
+    margin: 250px 0 70px 0;
+}
+
+.fa-instagram, .fa-spotify {
+    margin-right: 10px;
+}
+
+.btn-social-media {
+    border-radius: 50px;
+    color: black;
+    padding: 20px 27px 23px 27px;
+    font-size: 35px;
+    background-color: rgb(199, 199, 199);
+    border: 4px rgb(199, 199, 199) solid;
+}
+
+.btn-social-media:hover {
+    transition: 0.5s all;
+    background-color: transparent;
+    color: white;
+}
+
+.social-media-ppk h2{
+    margin-top: 200px;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.social-media-ppk .social-question {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+}
+
+.social-media-ppk .social-question.display {
+    opacity: 1;
+    transform: translate(0,0);
+}
+

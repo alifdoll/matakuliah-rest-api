@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    .info-podcast img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .jumbotron {
+        background-position: -140%;
+    }
+
+    .jumbotron h1 {
+        font-size: 45px;
+        width: 500px;
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+    }
+
+    .info-podcast p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .jumbotron h1 {
+        width: 400px;
+    }
+
+    .jumbotron p {
+        width: 350px;
+    }
+
+    .info-podcast .col-sm-4 {
+        margin-bottom: 100px;
+    }
+
+    .info-jadwal h1 {
+        font-size: 30px;
+    }
+}

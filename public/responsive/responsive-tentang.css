@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    .content-tentang h2 {
+        font-size: 25px;
+    }
+
+    .content-tentang h5 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-content p {
+        margin: 0 0 100px 0;
+    }
+
+    .content-tentang .col-sm-4 {
+        margin-bottom: 100px;
+    }
+
+    .content-tentang .fa-instagram,.content-tentang .fa-twitter, .content-tentang .fa-facebook {
+        font-size: 35px;
+    }
+
+    .content-tentang h1 {
+        font-size: 40px;
+    }
+
+    .content-tentang h2 {
+        font-size: 30px;
+    }
+
+    .content-tentang h5 {
+        font-size: 20px;
+    }
+
+    .content-tentang p {
+        font-size: 15px;
+    }
+}

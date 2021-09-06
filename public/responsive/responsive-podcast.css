@@ -1,0 +1,64 @@
+@media  screen and (max-width: 768px) {
+    .jumbotron {
+        background-position: -160%;
+    }
+    
+    .jumbotron h1 {
+        width: 75%;
+    }
+
+    .content-daftar-ppk h1 {
+        font-size: 40px;
+    }
+
+    .content-daftar-ppk img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .social-media-ppk h1 {
+        margin: 200px 0 100px 0;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .jumbotron {
+        background-position: -220%;
+    }
+
+    .jumbotron h1 {
+        width: 100%;
+        font-size: 60px;
+    }
+
+    .content-daftar-ppk img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .content-daftar-ppk .list-content p {
+        margin: 10px 0 30px 0;
+    }
+
+    .content-daftar-ppk .list-content a {
+        display: inline-block;
+        margin-bottom: 100px;
+    }
+
+    .content-daftar-ppk h3 {
+        display: none;
+    }
+
+    .social-media-ppk h1 {
+        margin: 100px 0 70px 0;
+    }
+
+    .social-media-ppk a {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .social-media-ppk h2 {
+        margin-top: 50px;
+    }
+}

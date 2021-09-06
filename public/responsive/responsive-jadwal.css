@@ -1,0 +1,29 @@
+@media  screen and (max-width: 768px) {
+    .work-in-progress {
+        min-height: 800px;
+    }
+    
+    .work-in-progress h1 {
+        font-size: 55px;
+    }
+
+    .work-in-progress img {
+        width: 400px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .work-in-progress {
+        min-height: 700px;
+    }
+    
+    .work-in-progress h1 {
+        font-size: 40px;
+    }
+
+    .work-in-progress img {
+        width: 300px;
+        height: 450px;
+    }
+}
