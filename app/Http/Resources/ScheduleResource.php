@@ -3,6 +3,7 @@
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
+use Carbon\Carbon;
 
 class ScheduleResource extends JsonResource
 {
@@ -16,8 +17,8 @@ class ScheduleResource extends JsonResource
     {
         return [
             'hari' => $this->hari,
-            'mulai' => $this->waktuMulai,
-            'akhir' => $this->waktuBerakhir,
+            'mulai' => Carbon::createFromFormat('H:i:s', $this->waktuMulai)->format('h:i'),
+            'akhir' => Carbon::createFromFormat('H:i:s', $this->waktuBerakhir)->format('h:i'),
         ];
     }
 }

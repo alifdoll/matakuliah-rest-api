@@ -17,9 +17,9 @@ class Schedules extends Migration
         Schema::create('schedules', function (Blueprint $table) {
             $table->integer('id_schedule');
 
-            $table->string('id');
-
             $table->string('id_kp');
+
+            $table->string('kode_kp');
 
 
             $table->string('hari');
@@ -27,13 +27,13 @@ class Schedules extends Migration
             $table->time('waktuMulai', 0);
             $table->time('waktuBerakhir', 0);
 
-            $table->primary(['id_schedule', 'id', 'id_kp', 'hari']);
-            $table->unique(['id_schedule', 'id', 'id_kp', 'hari']);
+            $table->primary(['id_schedule', 'id_kp', 'kode_kp', 'hari']);
+            $table->unique(['id_schedule', 'id_kp', 'kode_kp', 'hari']);
         });
 
         Schema::table('schedules', function (Blueprint $table) {
             $table->integer('id_schedule')->autoIncrement()->change();
-            $table->foreign('id_kp')->references('kode')->on('groups');
+            $table->foreign('id_kp')->references('id_kp')->on('groups');
         });
     }
 

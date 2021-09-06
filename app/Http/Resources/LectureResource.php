@@ -6,6 +6,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Database\Eloquent\Model;
 use App\Http\Resources\GroupResource;
 use App\Group;
+
 class LectureResource extends JsonResource
 {
     /**
@@ -18,6 +19,7 @@ class LectureResource extends JsonResource
     {
         // $group = Group::with('lecture')->get();
         return [
+            'id' => $this->id,
             'kode' => $this->kode,
             'nama' => $this->nama,
             'sks' => $this->sks,

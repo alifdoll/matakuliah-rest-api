@@ -14,14 +14,16 @@ class Groups extends Migration
     public function up()
     {
         Schema::create('groups', function (Blueprint $table) {
+            $table->string('id_kp');
+
             $table->string('id_mk');
 
             $table->string('kode');
 
             $table->string('kuota');
 
-            $table->primary(['kode', 'id_mk']);
-            $table->unique(['kode', 'id_mk']);
+            $table->primary(['id_kp', 'kode', 'id_mk']);
+            $table->unique(['id_kp', 'kode', 'id_mk']);
 
             $table->foreign('id_mk')->references('id')->on('courses');
         });

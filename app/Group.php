@@ -11,10 +11,11 @@ class Group extends Model
 
     public function schedules()
     {
-        return $this->hasMany('App\Schedule', 'id_kp', 'kode');
+        return $this->hasMany('App\Schedule', 'id_kp', 'id_kp');
     }
 
-    public function lecture() {
+    public function lecture()
+    {
         return $this->belongsTo('App\Lecture', 'id_mk');
     }
 }
