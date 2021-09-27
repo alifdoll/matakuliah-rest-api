@@ -7,9 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Pusing Kuliah</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    @extends('layout.boots')
 
     <!-- Source CSS -->
     <link rel="stylesheet" href="css/jadwalStyle.css">
@@ -22,7 +20,7 @@
   <body>
     
    <!-- Navbar -->
-   @extends('navbar')
+   @extends('layout.navbar')
    <!-- Akhir Nabvar -->
 
     <div class="work-in-progress" id="work-in-progress">
@@ -40,7 +38,7 @@
         <div class="container text-left">
             <div class="row spacing-top-footer">
                 <div class="col-sm-3 col-md-3 col-lg-2">
-                    <a href=""><img class="img-footer" src="asset/pusing_kuliah_putih.png" alt=""></a>
+                    <a href="/"><img class="img-footer" src="asset/pusing_kuliah_putih.png" alt=""></a>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-2 text-left">
                     <h3>TENTANG KAMI</h3>

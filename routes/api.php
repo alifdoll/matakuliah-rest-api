@@ -23,20 +23,5 @@ use App\Http\Resources\GroupResource;
 */
 
 
-// Route::get('/lectures', function () {
-//     return LectureController::index();
-// });
-
-
 Route::get('/lectures', 'LectureController@index');
-// Route::get('/products', 'ProductController@index');
-// Route::get('/categories', 'CategoryController@index');
 
-// Route::post('/products', 'ProductController@store');
-// Route::post('/categories', 'CategoryController@store');
-
-
-
-// Route::middleware('auth:api')->get('/user', function (Request $request) {
-//     return $request->user();
-// });

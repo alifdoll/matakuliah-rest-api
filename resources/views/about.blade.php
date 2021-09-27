@@ -10,10 +10,8 @@
     <!-- Source CSS -->
     <link rel="stylesheet" href="css/tentangStyle.css">
     <link rel="stylesheet" href="responsive/responsive-tentang.css">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    @extends('layout.boots')
 
     <!-- Source Fonts -->
     <link href="http://fonts.cdnfonts.com/css/coolvetica-2" rel="stylesheet">
@@ -22,7 +20,7 @@
   <body>
     
      <!-- Navbar -->
-     @extends('navbar')
+     @extends('layout.navbar')
      <!-- Akhir Nabvar -->
 
     <section class="tentang-kami" id="tentang-kami">
@@ -31,7 +29,7 @@
                 <div class="col-sm-12">
                     <div class="row main-content">
                         <div class="col-sm-6">
-                            <img src="asset/pusing_kuliah_hitam.png" alt="" srcset="">
+                            <a href="/"><img src="asset/pusing_kuliah_hitam.png" alt="" srcset=""></a>
                         </div>
                         <div class="col-sm-6">
                             <p>sekumpulan mahasiswa yang pusing akan kuliahnya, sehingga mereka membuat sebuah tempat untuk berkeluh kesah.</p>

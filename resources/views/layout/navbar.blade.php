@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-            <img src="asset/pusing_kuliah_putih.png" alt="" srcset="">
+              <a href="/"><img class="img-footer" src="asset/pusing_kuliah_putih.png"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

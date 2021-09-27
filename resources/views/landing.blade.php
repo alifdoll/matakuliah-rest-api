@@ -21,7 +21,7 @@
   <body>
     
     <!-- Navbar -->
-    @extends('navbar')
+    @extends('layout.navbar')
     <!-- Akhir Nabvar -->
 
     <div class="jumbotron">
@@ -67,7 +67,7 @@
         <div class="container text-left">
             <div class="row spacing-top-footer">
                 <div class="col-sm-3 col-md-3 col-lg-2">
-                    <a href=""><img class="img-footer" src="asset/pusing_kuliah_putih.png" alt=""></a>
+                    <a href="/"><img border="0" class="img-footer" src="asset/pusing_kuliah_putih.png"></a>
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-2 text-left">
                     <h3>TENTANG KAMI</h3>
