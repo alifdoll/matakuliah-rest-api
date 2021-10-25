@@ -3,11 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Lecture;
-use App\Group;
-use App\Schedule;
 use Illuminate\Http\Request;
 use App\Http\Resources\LectureResource;
-use App\Http\Resources\GroupResource;
+
 class LectureController extends Controller
 {
     /**
@@ -17,8 +15,6 @@ class LectureController extends Controller
      */
     public function index()
     {
-        // $schedule = Schedule::with('group')->get();
-        // $group = Group::with('lecture')->get();
         $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
         return LectureResource::collection($lecture);
     }

@@ -24,7 +24,7 @@ define('LARAVEL_START', microtime(true));
 //require __DIR__.'/../vendor/autoload.php';
 
 // UNTUK DI SERVER
-require __DIR__.'/../../../repositories/matakuliah-rest-api/vendor/autoload.php';
+require __DIR__ . '/../../../repositories/matakuliah-rest-api/vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ require __DIR__.'/../../../repositories/matakuliah-rest-api/vendor/autoload.php'
 //$app = require_once __DIR__.'/../bootstrap/app.php';
 
 // UNTUK DI SERVER
-$app = require_once __DIR__.'/../../../repositories/matakuliah-rest-api/bootstrap/app.php';
+$app = require_once __DIR__ . '/../../../repositories/matakuliah-rest-api/bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------

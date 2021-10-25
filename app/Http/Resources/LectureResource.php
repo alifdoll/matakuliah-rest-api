@@ -24,9 +24,7 @@ class LectureResource extends JsonResource
             'nama' => $this->nama,
             'sks' => $this->sks,
             'ujian' => $this->ujian,
-            'kelas' => [
-                GroupResource::collection($this->groups),
-            ],
+            'kelas' => GroupResource::collection($this->groups),
         ];
     }
 }
