@@ -23,5 +23,4 @@ use App\Http\Resources\GroupResource;
 */
 
 
-Route::get('/lectures', 'LectureController@index');
-
+Route::get('/lectures/{name?}', 'LectureController@index');

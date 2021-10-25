@@ -13,8 +13,16 @@ class LectureController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        if ($request->has('search')) {
+            $search = $request->input('search');
+            // $lecture = Lecture::with(['groups', 'groups.schedules'])->where('nama', 'like', $search)->get();
+            $lecture = Lecture::with(['groups', 'groups.schedules'])->where('nama', 'like', "%{$search}%")->paginate(5);
+            // return dd($lecture);
+            return LectureResource::collection($lecture);
+        }
+
         $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
         return LectureResource::collection($lecture);
     }
