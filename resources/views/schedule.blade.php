@@ -1,73 +1,25 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Pusing Kuliah</title>
+@extends('layout.main')
 
-    @extends('layout.boots')
+@section('css')
+<link rel="stylesheet" href="{{asset('css/jadwalStyle.css')}}">
+{{-- <link rel="stylesheet" href="{{asset('responsive/responsive-jadwal.css')}}"> --}}
+@endsection
 
-    <!-- Source CSS -->
-    <link rel="stylesheet" href="css/jadwalStyle.css">
-    <link rel="stylesheet" href="responsive/responsive-jadwal.css">
-
-    <!-- Source Fonts -->
-    <link href="http://fonts.cdnfonts.com/css/coolvetica-2" rel="stylesheet">
-
-  </head>
-  <body>
-    
-   <!-- Navbar -->
-   @extends('layout.navbar')
-   <!-- Akhir Nabvar -->
-
-    <div class="work-in-progress" id="work-in-progress">
-        <div class="container text-center">
-            <h1>Oops Sorry! Work in Progress</h1>
-            <div class="row">
-                <div class="col-sm-12">
-                    <img src="source/Coding2.png" alt="" srcset="">
-                </div>
+@section('content')
+{{-- <div class="work-in-progress" id="work-in-progress">
+    <div class="container text-center">
+        <h1>Oops Sorry! Work in Progress</h1>
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="source/Coding2.png" alt="" srcset="">
             </div>
         </div>
     </div>
+</div> --}}
 
-    <footer>
-        <div class="container text-left">
-            <div class="row spacing-top-footer">
-                <div class="col-sm-3 col-md-3 col-lg-2">
-                    <a href="/"><img class="img-footer" src="asset/pusing_kuliah_putih.png" alt=""></a>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-2 text-left">
-                    <h3>TENTANG KAMI</h3>
-                    <p>JADWAL KULIAH</p>
-                    <p>PODCAST PUSING KULIAH</p>
-                    <p>SAWERIA</p>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-2 text-left">
-                    <h3>PATNER</h3>
-                    <p>SPOTIFY</p>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-6 text-right">
-                    <h2>SOSIAL MEDIA</h2>
-                    <div class="group-social-media text-center">
-                        <a href="https://www.instagram.com/armando.diazer/?hl=en" class="btn-social-media"><span class="fa fa-instagram"></span></a>
-                        <a href="https://www.instagram.com/armando.diazer/?hl=en" class="btn-social-media"><span class="fa fa-twitter"></span></a>
-                        <a href="https://www.instagram.com/armando.diazer/?hl=en" class="btn-social-media"><span class="fa fa-facebook"></span></a>
-                        <a href="https://www.instagram.com/armando.diazer/?hl=en" class="btn-social-media"><span class="fa fa-spotify"></span></a>
-                    </div>
-                </div>
-                
-            </div>
-            <h5 class="text-right">@ 2021 ATIGA</h5>
-        </div>
-    </footer>
-
-    <!-- <section class="jadwal-kuliah" id="jadwal-kuliah">
+<section class="jadwal-kuliah" id="jadwal-kuliah">
         <div class="container-fluid text-center">
-            <h1>JADWAL KULIAH</h1>
+            <h1>JADWAL {{app()->version()}}</h1>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="jadwal-searching">
@@ -75,62 +27,27 @@
                         <input type="button" value="Search">
                     </div>
                     <div class="jadwal-place">
-                        <div class="row">
+                        <div id="row-matkul" class="row">
                             <div class="col-sm-12 text-center">
-
+                                @foreach($lecture as $lct)
                                 <div class="mata-kuliah">
-                                    
-                                    <div class="row">
-                                        <p> NAMA MATA KULIAH</p>
-                                        <div class="col-sm-6">
-                                            <input type="button" value="KP A">
+                                    <div id="row-mata-kuliah" class="row">
+                                        <p> {{$lct->nama}}</p>
+                                        @foreach($lct->groups as $kp)
+                                        <div id="kelas-paralel" class="col-sm-6">
+                                            <input type="button" value="{{$kp->kode}}">
+                                            @foreach($kp->schedules as $sch)
+                                            <p>{{$sch->hari}} {{$sch->waktuMulai}}-{{$sch->waktuBerakhir}}</p>
+                                            @endforeach
                                         </div>
-                                        <div class="col-sm-6">
-                                            <input type="button" value="KP B">
-                                        </div>
+                                        @endforeach
                                     </div>
                                 </div>
-
-                                <div class="mata-kuliah">
-                                    
-                                    <div class="row">
-                                        <p> NAMA MATA KULIAH</p>
-                                        <div class="col-sm-6">
-                                            <input type="button" value="KP A">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <input type="button" value="KP B">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="mata-kuliah">
-                                    
-                                    <div class="row">
-                                        <p> NAMA MATA KULIAH</p>
-                                        <div class="col-sm-6">
-                                            <input type="button" value="KP A">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <input type="button" value="KP B">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="mata-kuliah">
-                                    
-                                    <div class="row">
-                                        <p> NAMA MATA KULIAH</p>
-                                        <div class="col-sm-6">
-                                            <input type="button" value="KP A">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <input type="button" value="KP B">
-                                        </div>
-                                    </div>
-                                </div>
-
+                                @endforeach
                             </div>
+                        </div>
+                        <div class="pagination">
+                            {{ $lecture->onEachSide(1)->links() }}
                         </div>
                     </div>
 
@@ -286,11 +203,28 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
+@endsection
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-  </body>
-</html>
+@section('script')
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(document).on('click', '.paginaton', function(e) {
+            e.preventDefault();
+            var page = $(this).attr('href').split('page=')[1];
+            fetch_data(page);
+        })
+    });
+
+    function fetch_data(page) {
+        $.ajax(
+            {
+                url: `schedule?page=${page}`,
+                success: function(data) {
+                    $('.jadwal-place').html(data);
+                }
+            }
+        )
+    }
+</script>
+@endsection

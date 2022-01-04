@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LectureController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +22,7 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/schedule', function () {
-    return view('schedule');
-});
+Route::get('/schedule', 'LectureController@schedule');
 
 Route::get('/podcast', function () {
     return view('podcast');

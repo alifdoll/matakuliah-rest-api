@@ -27,6 +27,13 @@ class LectureController extends Controller
         return LectureResource::collection($lecture);
     }
 
+    public function schedule()
+    {
+        $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
+        // return dd($lecture);
+        return view('schedule', compact('lecture'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *

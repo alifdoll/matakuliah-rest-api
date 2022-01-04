@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Pusing Kuliah</title>
+
+        <!-- Bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+            crossorigin="anonymous"
+        />
+
+        <!-- Source CSS -->
+        <link rel="stylesheet" href="jadwalStyle.css" />
+
+        <!-- Source Fonts -->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href=""
+                            ><img
+                                class="img-logo"
+                                src="asset/logo_transparant.png"
+                                alt=""
+                        /></a>
+                    </div>
+                    <div class="col-sm-6 text-right spacing-header-text">
+                        <a href="">JADWAL KULIAH</a>
+                        <a href="">PODCAST</a>
+                        <a href="">TENTANG KAMI</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="jadwal-kuliah" id="jadwal-kuliah">
+            <div class="container-fluid text-center">
+                <h1>JADWAL KULIAH</h1>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="jadwal-searching">
+                            <input
+                                type="search"
+                                name="search"
+                                id="search"
+                                placeholder="Searching"
+                            />
+                            <input
+                                type="button"
+                                value="Search"
+                                onclick="hapus()"
+                            />
+                        </div>
+
+                        <div class="jadwal-place">
+                            <div id="row-matkul" class="row">
+                                <div
+                                    id="mata-kuliah"
+                                    class="col-sm-12 text-center"
+                                ></div>
+                            </div>
+
+                            <div id="pagination" class="pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 row-cols-*">
+                        <div class="jadwal-matkul">
+                            <div class="table-responsive">
+                                <table
+                                    class="table table-condensed tabel-jadwal"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th>WAKTU</th>
+                                            <th>SENIN</th>
+                                            <th>SELASA</th>
+                                            <th>RABU</th>
+                                            <th>KAMIS</th>
+                                            <th>JUMAT</th>
+                                            <th>SABTU</th>
+                                            <th>MINGGU</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>07.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>08.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>09.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>10.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>11.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>12.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>13.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>14.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>15.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>16.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>18.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>19.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>20.00</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script
+            src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+            integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+
+    <script src="js/matakuliah.js" type="application/javascript"></script>
+    <script src="js/script.js" type="application/javascript"></script>
+    <script type="application/javascript">
+        new Jadwal(matakuliah, document.querySelector(".tabel-jadwal"));
+
+        function hapus() {
+            Jadwal.resetState();
+        }
+
+        function clickPage(number) {
+            Jadwal.clickPage(number);
+        }
+
+        function clickKelas(kelas) {
+            Jadwal.clickKelas(
+                matakuliah,
+                kelas,
+                document.querySelector(".tabel-jadwal")
+            );
+        }
+    </script>
+</html>
