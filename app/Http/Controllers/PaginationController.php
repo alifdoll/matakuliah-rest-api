@@ -11,7 +11,7 @@ class PaginationController extends Controller
     {
         if ($request->ajax()) {
             $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
-            return  
+            // return  
         }
     }
 }

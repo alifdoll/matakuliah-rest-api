@@ -31,7 +31,15 @@ class LectureController extends Controller
     {
         $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
         // return dd($lecture);
-        return view('schedule', compact('lecture'));
+        return view('schedule.schedule', compact('lecture'));
+    }
+
+    public function fetchAjax(Request $request)
+    {
+        if ($request->ajax()) {
+            $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
+            return view('schedule.schedule_data', compact('lecture'))->render();
+        }
     }
 
     /**
