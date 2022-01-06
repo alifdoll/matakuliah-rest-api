@@ -17,28 +17,34 @@ class LectureController extends Controller
     {
         if ($request->has('search')) {
             $search = $request->input('search');
-            // $lecture = Lecture::with(['groups', 'groups.schedules'])->where('nama', 'like', $search)->get();
             $lecture = Lecture::with(['groups', 'groups.schedules'])->where('nama', 'like', "%{$search}%")->paginate(5);
-            // return dd($lecture);
             return LectureResource::collection($lecture);
         }
-
         $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
         return LectureResource::collection($lecture);
     }
 
-    public function schedule()
+    public function schedule(Request $request)
     {
-        $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
-        // return dd($lecture);
-        return view('schedule.schedule', compact('lecture'));
+        if ($request->ajax()) {
+            $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
+            if ($request->has('search')) {
+                $search = $request->input('search');
+                $lecture = Lecture::with(['groups', 'groups.schedules'])->where('nama', 'like', "%{$search}%")->paginate(5);
+                $lecture->appends(["search" => $search]);
+            }
+            return view('schedule.schedule_data', compact('lecture'));
+        } else {
+            $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
+            return view('schedule.schedule', compact('lecture'));
+        }
     }
 
     public function fetchAjax(Request $request)
     {
         if ($request->ajax()) {
             $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
-            return view('schedule.schedule_data', compact('lecture'))->render();
+            return view('schedule.schedule_data', compact('lecture'));
         }
     }
 
