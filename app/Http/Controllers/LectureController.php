@@ -40,12 +40,11 @@ class LectureController extends Controller
         }
     }
 
-    public function fetchAjax(Request $request)
+    public function getSchedule(Request $request)
     {
-        if ($request->ajax()) {
-            $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
-            return view('schedule.schedule_data', compact('lecture'));
-        }
+        $test = $request->input('test');
+        $lecture = Lecture::find($test);
+        return $lecture->toJson();
     }
 
     /**

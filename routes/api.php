@@ -24,3 +24,4 @@ use App\Http\Resources\GroupResource;
 
 
 Route::get('/lectures/{name?}', 'LectureController@index');
+Route::post('/lectures/search', 'LectureController@getSchedule');

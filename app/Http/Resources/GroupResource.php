@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Resources;
+
 use App\Http\Resources\ScheduleResource;
 use Illuminate\Http\Resources\Json\JsonResource;
 
@@ -18,7 +19,7 @@ class GroupResource extends JsonResource
 
         return [
             'id' => $this->id_mk,
-            'kelas' => $this->kode,
+            'kode' => $this->kode,
             'kuota' => $this->kuota,
             'jadwal' => ScheduleResource::collection($this->schedules)
         ];
