@@ -90,12 +90,15 @@
                 $.ajax({
                     url: `api/lectures/search`,
                     type: "POST",
+                    accepts: "application/json; charset=utf-8",
                     data: {
                         _token: "<?= csrf_token() ?>",
-                        test: kodeMatkul
+                        search: kodeMatkul
                     },
                     success: function(data) {
-                        console.log(data);
+                        const jsonData = JSON.parse(data);
+                        console.log(kodeMatkul);
+                        console.log(jsonData[0]);
                         // PROSES DI SINI
                     },
                 });

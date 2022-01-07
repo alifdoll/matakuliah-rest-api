@@ -30,7 +30,12 @@ class LectureController extends Controller
             $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
             if ($request->has('search')) {
                 $search = $request->input('search');
-                $lecture = Lecture::with(['groups', 'groups.schedules'])->where('nama', 'like', "%{$search}%")->paginate(5);
+                $lecture = Lecture::with(['groups', 'groups.schedules'])->where(
+                    [
+                        ['nama', 'like', "%{$search}%"],
+                        ['kode', 'like', "%{$search}%"]
+                    ]
+                )->paginate(5);
                 $lecture->appends(["search" => $search]);
             }
             return view('schedule.schedule_data', compact('lecture'));
@@ -42,8 +47,11 @@ class LectureController extends Controller
 
     public function getSchedule(Request $request)
     {
-        $test = $request->input('test');
-        $lecture = Lecture::find($test);
+        $search = $request->input('search');
+        $lecture = Lecture::with(['groups', 'groups.schedules'])
+            ->where('id', 'like', "%{$search}%")
+            ->orWhere('kode', 'like', "%{$search}%")->get();
+
         return $lecture->toJson();
     }
 
