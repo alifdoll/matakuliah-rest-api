@@ -101,13 +101,11 @@
 
         function time(time) {
             const jam = Number.parseInt(time.substring(0, time.indexOf(":")));
-            console.log(time);
             const menit = Number.parseInt(time.substring(time.indexOf(":") + 1));
             return jam * 60 + menit;
         }
 
         async function selectClass(selectedClass) {
-            console.log(selectedClass);
             selectedClass.kelas.jadwal.forEach((kelas) => {
                 const waktuMulai = time(kelas.mulai.toString());
                 const waktuBerakhir = time(kelas.akhir.toString());
@@ -135,9 +133,6 @@
                 </div>
                 `;
 
-                let testN = Number.parseInt(waktuMulai / 60) - "07.00" + 1;
-                console.log(testN);
-
                 $(`.table-condensed tbody > tr:nth-child(${
                     Number.parseInt(waktuMulai / 60) -
                     "07.00" +
@@ -151,12 +146,30 @@
 
         }
 
+        function getStorageKey() {
+
+            var values = [];
+
+            for (var i = 0, len = localStorage.length; i < len; ++i) {
+                values.push((localStorage.key(i)));
+            }
+
+            return values;
+        }
+
         $(".jadwal-place").on("DOMSubtreeModified", function(e) {
             changeButtonColor();
         });
 
         $(document).ready(function() {
             changeButtonColor();
+
+            let selectedClasses = getStorageKey();
+            selectedClasses.forEach((key) => {
+                let classes = JSON.parse(localStorage.getItem(key));
+                console.log(classes)
+                selectClass(classes);
+            })
 
             $(document).on("click", '.kp-button', async function(e) {
                 const alreadySelected = $(this).attr("terpilih");
