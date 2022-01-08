@@ -1,4 +1,6 @@
-@extends('layout.main') @section('css')
+@extends('layout.main')
+
+@section('css')
     <link rel="stylesheet" href="{{ asset('css/jadwalStyle.css') }}" />
     {{-- <link rel="stylesheet" href="{{ asset('responsive/responsive-jadwal.css') }}" /> --}} @endsection @section('content') {{-- <div class="work-in-progress" id="work-in-progress">
     <div class="container text-center">
@@ -36,10 +38,10 @@
     </section>
 @endsection
 
+
 @section('script')
     <script type="text/javascript">
         $(document).ready(function() {
-
             //Untuk ganti halaman
             $(document).on("click", ".page-item", function(e) {
                 e.preventDefault();
@@ -65,7 +67,6 @@
             });
         }
 
-
         //Function ganti halaman
         function changePage(page, query) {
             $.ajax({
@@ -78,42 +79,111 @@
     </script>
 
     <script type="text/javascript">
+        function getMatkul(id) {
+            return $.ajax({
+                url: `api/lectures/detail/${id}`,
+                accepts: "application/json; charset=utf-8",
+            });
+        }
+
+        function changeButtonColor() {
+            $(".kp-button").each(function(i, obj) {
+                let idMatkul = $(this).attr('id-matkul');
+                let selected = JSON.parse(localStorage.getItem(idMatkul));
+                if (selected !== null) {
+                    if (idMatkul == selected.id) {
+                        $(this).addClass("terpilih");
+                        $(this).attr("terpilih", true);
+                    }
+                }
+            });
+        }
+
+        function time(time) {
+            const jam = Number.parseInt(time.substring(0, time.indexOf(":")));
+            console.log(time);
+            const menit = Number.parseInt(time.substring(time.indexOf(":") + 1));
+            return jam * 60 + menit;
+        }
+
+        async function selectClass(selectedClass) {
+            console.log(selectedClass);
+            selectedClass.kelas.jadwal.forEach((kelas) => {
+                const waktuMulai = time(kelas.mulai.toString());
+                const waktuBerakhir = time(kelas.akhir.toString());
+                const perbedaan = waktuBerakhir - waktuMulai;
+
+                // $(".table-condensed tbody")
+
+                const daftarHari = [
+                    "Senin",
+                    "Selasa",
+                    "Rabu",
+                    "Kamis",
+                    "Jumat",
+                    "Sabtu",
+                    "Minggu",
+                ];
+
+                var test = `
+                <div class="jadwal" kode-mata-kuliah="${selectedClass.kode}" kode-kelas="${selectedClass.kelas.kode}" style="height: calc(7.33333rem - 1px); margin-top: calc(3.28333rem + 1px);">
+                    <div class="jadwal__detail">
+                        <p>${selectedClass.nama}</p>
+                        <p>Kelas ${selectedClass.kelas.kode}</p>
+                        <p>${kelas.mulai} - ${kelas.akhir}</p>
+                    </div>
+                </div>
+                `;
+
+                let testN = Number.parseInt(waktuMulai / 60) - "07.00" + 1;
+                console.log(testN);
+
+                $(`.table-condensed tbody > tr:nth-child(${
+                    Number.parseInt(waktuMulai / 60) -
+                    "07.00" +
+                    1
+                })>td:nth-child(${
+                    daftarHari.indexOf(kelas.hari) + 2
+                })`).append(
+                    test
+                );
+            })
+
+        }
+
+        $(".jadwal-place").on("DOMSubtreeModified", function(e) {
+            changeButtonColor();
+        });
+
         $(document).ready(function() {
+            changeButtonColor();
 
-            var listMataKuliah = (@json($lecture)).data;
+            $(document).on("click", '.kp-button', async function(e) {
+                const alreadySelected = $(this).attr("terpilih");
+                const idMatkul = $(this).attr("id-matkul");
+                if (typeof alreadySelected === 'undefined' || alreadySelected === false) {
+                    console.log("clicked belum terpilih");
+                    $(this).addClass("terpilih");
+                    $(this).attr("terpilih", true);
 
-            $(document).on("click", '.kp-button', function(e) {
-                const kodeMatkul = $(this).attr("kode-matkul");
-                const kodeKelas = $(this).attr("value");
+                    const kodeKelas = $(this).attr("value");
 
+                    const result = (await getMatkul(idMatkul))["data"][0];
+                    const selectedClass = result.kelas.find(
+                        (kelas) => kelas.kode == kodeKelas
+                    );
 
-                $.ajax({
-                    url: `api/lectures/search`,
-                    type: "POST",
-                    accepts: "application/json; charset=utf-8",
-                    data: {
-                        _token: "<?= csrf_token() ?>",
-                        search: kodeMatkul
-                    },
-                    success: function(data) {
-                        const jsonData = JSON.parse(data);
-                        console.log(kodeMatkul);
-                        console.log(jsonData[0]);
-                        // PROSES DI SINI
-                    },
-                });
-
-                console.log(listMataKuliah);
-
-                const matkuldipilih = listMataKuliah.find(
-                    (mk) => mk.kode === kodeMatkul
-                );
-
-                const kelasdipilih = listMataKuliah.groups.find(
-                    (kelas) => kelas.kode == kodeKelas
-                );
-
-
+                    let selectedMatkul = result;
+                    selectedMatkul.kelas = selectedClass;
+                    localStorage.setItem(selectedMatkul.id, JSON.stringify(selectedMatkul));
+                    selectClass(selectedMatkul);
+                    console.log(selectedMatkul);
+                } else {
+                    localStorage.removeItem(idMatkul);
+                    $(this).removeClass("terpilih");
+                    $(this).removeAttr("terpilih");
+                    console.log("clicked sudah terpilih");
+                }
 
             })
         });

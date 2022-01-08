@@ -13,14 +13,22 @@ class LectureController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request)
+    public function index($name = null)
     {
-        if ($request->has('search')) {
-            $search = $request->input('search');
-            $lecture = Lecture::with(['groups', 'groups.schedules'])->where('nama', 'like', "%{$search}%")->paginate(5);
+        if ($name != null) {
+            $lecture = Lecture::with(['groups', 'groups.schedules'])->where('nama', 'like', "%$name%")->paginate(5);
+            return LectureResource::collection($lecture);
+        } else {
+            $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
             return LectureResource::collection($lecture);
         }
-        $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
+    }
+
+    public function getLectureDetail($id)
+    {
+        $lecture = Lecture::with(['groups', 'groups.schedules'])
+            ->where('id', 'like', "%$id%")->get();
+
         return LectureResource::collection($lecture);
     }
 
@@ -30,12 +38,16 @@ class LectureController extends Controller
             $lecture = Lecture::with(['groups', 'groups.schedules'])->paginate(5);
             if ($request->has('search')) {
                 $search = $request->input('search');
-                $lecture = Lecture::with(['groups', 'groups.schedules'])->where(
-                    [
-                        ['nama', 'like', "%{$search}%"],
-                        ['kode', 'like', "%{$search}%"]
-                    ]
-                )->paginate(5);
+                $lecture = Lecture::with(['groups', 'groups.schedules'])
+                    ->where(
+                        'nama',
+                        'like',
+                        "%$search%"
+                    )->orWhere(
+                        'kode',
+                        'like',
+                        "%$search%"
+                    )->paginate(5);
                 $lecture->appends(["search" => $search]);
             }
             return view('schedule.schedule_data', compact('lecture'));
@@ -45,15 +57,7 @@ class LectureController extends Controller
         }
     }
 
-    public function getSchedule(Request $request)
-    {
-        $search = $request->input('search');
-        $lecture = Lecture::with(['groups', 'groups.schedules'])
-            ->where('id', 'like', "%{$search}%")
-            ->orWhere('kode', 'like', "%{$search}%")->get();
 
-        return $lecture->toJson();
-    }
 
     /**
      * Show the form for creating a new resource.

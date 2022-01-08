@@ -3,13 +3,17 @@
         @foreach ($lecture as $lct)
             <div class="mata-kuliah">
                 <div class="row">
-                    <p> {{ $lct->nama }}</p>
+                    <p>{{ $lct->nama }}</p>
                     @foreach ($lct->groups as $kp)
                         <div class="col-sm-6">
                             <input class="kp-button" type="button" value="{{ $kp->kode }}"
-                                kode-matkul="{{ $lct->id }}">
+                                id-matkul="{{ $lct->id }}" />
                             @foreach ($kp->schedules as $sch)
-                                <p>{{ $sch->hari }} {{ $sch->waktuMulai }}-{{ $sch->waktuBerakhir }}</p>
+                                <p>
+                                    {{ $sch->hari }}
+                                    {{ \Carbon\Carbon::createFromFormat('H:i:s', $sch->waktuMulai)->format('h:i') }} -
+                                    {{ \Carbon\Carbon::createFromFormat('H:i:s', $sch->waktuBerakhir)->format('h:i') }}
+                                </p>
                             @endforeach
                         </div>
                     @endforeach
