@@ -7,7 +7,7 @@
                     @foreach ($lct->groups as $kp)
                         <div class="col-sm-6">
                             <input class="kp-button" type="button" value="{{ $kp->kode }}"
-                                id-matkul="{{ $lct->id }}" />
+                                id-matkul="{{ $lct->id }}" kode-matkul="{{ $lct->kode }}" />
                             @foreach ($kp->schedules as $sch)
                                 <p>
                                     {{ $sch->hari }}

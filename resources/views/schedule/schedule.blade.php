@@ -79,6 +79,16 @@
     </script>
 
     <script type="text/javascript">
+        const daftarHari = [
+            "Senin",
+            "Selasa",
+            "Rabu",
+            "Kamis",
+            "Jumat",
+            "Sabtu",
+            "Minggu",
+        ];
+
         function getMatkul(id) {
             return $.ajax({
                 url: `api/lectures/detail/${id}`,
@@ -105,23 +115,22 @@
             return jam * 60 + menit;
         }
 
-        async function selectClass(selectedClass) {
+        function getStorageKey() {
+
+            var values = [];
+
+            for (var i = 0, len = localStorage.length; i < len; ++i) {
+                values.push((localStorage.key(i)));
+            }
+
+            return values;
+        }
+
+        async function addClassTable(selectedClass) {
             selectedClass.kelas.jadwal.forEach((kelas) => {
                 const waktuMulai = time(kelas.mulai.toString());
                 const waktuBerakhir = time(kelas.akhir.toString());
                 const perbedaan = waktuBerakhir - waktuMulai;
-
-                // $(".table-condensed tbody")
-
-                const daftarHari = [
-                    "Senin",
-                    "Selasa",
-                    "Rabu",
-                    "Kamis",
-                    "Jumat",
-                    "Sabtu",
-                    "Minggu",
-                ];
 
                 var test = `
                 <div class="jadwal" kode-mata-kuliah="${selectedClass.kode}" kode-kelas="${selectedClass.kelas.kode}" style="height: calc(7.33333rem - 1px); margin-top: calc(3.28333rem + 1px);">
@@ -143,18 +152,39 @@
                     test
                 );
             })
-
         }
 
-        function getStorageKey() {
+        async function removeClassTable(selectedClass) {
+            const kodeMatkul = selectedClass.attr("kode-matkul");
+            const kodeKelas = selectedClass.attr("value");
+            const tabble = $(`.jadwal[kode-mata-kuliah="${kodeMatkul}"][kode-kelas="${kodeKelas}"]`);
+            tabble.remove();
+        }
 
-            var values = [];
+        async function pilihKelas(selectedKelas) {
+            selectedKelas.addClass("terpilih");
+            selectedKelas.attr("terpilih", true);
 
-            for (var i = 0, len = localStorage.length; i < len; ++i) {
-                values.push((localStorage.key(i)));
-            }
+            const kodeKelas = selectedKelas.attr("value");
+            const idMatkul = selectedKelas.attr("id-matkul");
 
-            return values;
+            const result = (await getMatkul(idMatkul))["data"][0];
+            const selectedClass = result.kelas.find(
+                (kelas) => kelas.kode == kodeKelas
+            );
+
+            let selectedMatkul = result;
+            selectedMatkul.kelas = selectedClass;
+            localStorage.setItem(selectedMatkul.id, JSON.stringify(selectedMatkul));
+            addClassTable(selectedMatkul);
+        }
+
+        async function batalPilihKelas(kelas) {
+            const idMatkul = kelas.attr("id-matkul");
+            localStorage.removeItem(idMatkul);
+            kelas.removeClass("terpilih");
+            kelas.removeAttr("terpilih");
+            removeClassTable(kelas);
         }
 
         $(".jadwal-place").on("DOMSubtreeModified", function(e) {
@@ -168,34 +198,16 @@
             selectedClasses.forEach((key) => {
                 let classes = JSON.parse(localStorage.getItem(key));
                 console.log(classes)
-                selectClass(classes);
+                addClassTable(classes);
             })
 
             $(document).on("click", '.kp-button', async function(e) {
                 const alreadySelected = $(this).attr("terpilih");
                 const idMatkul = $(this).attr("id-matkul");
                 if (typeof alreadySelected === 'undefined' || alreadySelected === false) {
-                    console.log("clicked belum terpilih");
-                    $(this).addClass("terpilih");
-                    $(this).attr("terpilih", true);
-
-                    const kodeKelas = $(this).attr("value");
-
-                    const result = (await getMatkul(idMatkul))["data"][0];
-                    const selectedClass = result.kelas.find(
-                        (kelas) => kelas.kode == kodeKelas
-                    );
-
-                    let selectedMatkul = result;
-                    selectedMatkul.kelas = selectedClass;
-                    localStorage.setItem(selectedMatkul.id, JSON.stringify(selectedMatkul));
-                    selectClass(selectedMatkul);
-                    console.log(selectedMatkul);
+                    pilihKelas($(this));
                 } else {
-                    localStorage.removeItem(idMatkul);
-                    $(this).removeClass("terpilih");
-                    $(this).removeAttr("terpilih");
-                    console.log("clicked sudah terpilih");
+                    batalPilihKelas($(this));
                 }
 
             })
