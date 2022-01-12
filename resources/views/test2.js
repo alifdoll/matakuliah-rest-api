@@ -66,6 +66,7 @@ class JadwalKuliah {
         const waktuBerakhirJadwal2 = JadwalKuliah.stringWaktuKeTotalMenit(
             jadwal2.waktuBerakhir
         );
+
         return !(waktuBerakhirJadwal2 <= waktuMulaiJadwal1
             ? true
             : waktuMulaiJadwal2 >= waktuBerakhirJadwal1);

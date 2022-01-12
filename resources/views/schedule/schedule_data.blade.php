@@ -5,15 +5,12 @@
                 <div class="row">
                     <p>{{ $lct->nama }}</p>
                     @foreach ($lct->groups as $kp)
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 kelas-info">
                             <input class="kp-button" type="button" value="{{ $kp->kode }}"
-                                id-matkul="{{ $lct->id }}" kode-matkul="{{ $lct->kode }}" />
+                                id-matkul="{{ $lct->id }}" kode-matkul="{{ $lct->kode }}"
+                                nama-matkul="{{ $lct->nama }}" />
                             @foreach ($kp->schedules as $sch)
-                                <p>
-                                    {{ $sch->hari }}
-                                    {{ \Carbon\Carbon::createFromFormat('H:i:s', $sch->waktuMulai)->format('h:i') }} -
-                                    {{ \Carbon\Carbon::createFromFormat('H:i:s', $sch->waktuBerakhir)->format('h:i') }}
-                                </p>
+                                <p class="jadwal-info">{{ $sch->hari }} {{ \Carbon\Carbon::createFromFormat('H:i:s', $sch->waktuMulai)->format('h:i') }}-{{ \Carbon\Carbon::createFromFormat('H:i:s', $sch->waktuBerakhir)->format('h:i') }}</p>
                             @endforeach
                         </div>
                     @endforeach

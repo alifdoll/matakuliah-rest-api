@@ -97,13 +97,45 @@
         }
 
         function changeButtonColor() {
-            $(".kp-button").each(function(i, obj) {
-                let idMatkul = $(this).attr('id-matkul');
+            $(".kelas-info").each(function(i, obj) {
+                const button = $(this).children(".kp-button");
+                const info = $(this).children(".jadwal-info").html().split(" ");
+                let idMatkul = button.attr('id-matkul');
+
+                const hari = info[0];
+                const time = info[1].split("-");
+                const awal = time[0];
+                const akhir = time[1];
+
+
+                const jadwal = {
+                    hari: hari,
+                    mulai: awal,
+                    akhir: akhir
+                };
+
                 let selected = JSON.parse(localStorage.getItem(idMatkul));
+
+                const testing = bertabrakan(
+                    jadwal,
+                    selected.kelas.jadwal
+                );
+
+                console.log(selected)
+
+
                 if (selected !== null) {
                     if (idMatkul == selected.id) {
-                        $(this).addClass("terpilih");
-                        $(this).attr("terpilih", true);
+                        button.addClass("terpilih");
+                        button.attr("terpilih", true);
+                    }
+
+                    if (bertabrakan(
+                            jadwal,
+                            selected.kelas.jadwal
+                        )) {
+                        console.log("test");
+                        button.addClass("kelas-tabrakan");
                     }
                 }
             });
@@ -112,6 +144,7 @@
         function time(time) {
             const jam = Number.parseInt(time.substring(0, time.indexOf(":")));
             const menit = Number.parseInt(time.substring(time.indexOf(":") + 1));
+            const asd = jam * 60 + menit;
             return jam * 60 + menit;
         }
 
@@ -187,6 +220,22 @@
             removeClassTable(kelas);
         }
 
+        function bertabrakan(jadwal1, jadwal2) {
+            if (jadwal1.hari !== jadwal2.hari) return false;
+
+            const waktuMulai1 = time(jadwal1.mulai);
+            const waktuAkhir1 = time(jadwal1.akhir);
+            const waktuMulai2 = time(jadwal2.mulai);
+            const waktuAkhir2 = time(jadwal2.akhir);
+
+            if (waktuAkhir2 <= waktuMulai1) {
+                return false
+            } else {
+                const test = waktuMulai2 >= waktuAKhir1;
+                return test;
+            }
+        }
+
         $(".jadwal-place").on("DOMSubtreeModified", function(e) {
             changeButtonColor();
         });
@@ -197,7 +246,7 @@
             let selectedClasses = getStorageKey();
             selectedClasses.forEach((key) => {
                 let classes = JSON.parse(localStorage.getItem(key));
-                console.log(classes)
+                console.log(classes);
                 addClassTable(classes);
             })
 
