@@ -403,6 +403,7 @@ class JadwalKuliah {
             .forEach((el) => {
                 el.remove();
             });
+
         this.tabelMataKuliah
             .querySelectorAll(".kelas__kelas-bertabrakan")
             .forEach((el) => {
