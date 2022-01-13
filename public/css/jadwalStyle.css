@@ -124,3 +124,31 @@ th {
 .kelas-tabrakan {
     background-color: #ffcdd2;
 }
+
+.kp-button[kelas-tabrakan="false"][terpilih="false"]:hover {
+    background-color: #b3e5fc;
+}
+
+.kelas-info .kelas-tabrakan-info {
+    display: none;
+    background-color: red;
+    /* margin: calc(-1px - 0.5rem) 0 0 calc(-1px - 0.5rem); */
+    /* padding: 0.5rem; */
+    position: absolute;
+    text-align: center;
+    width: 12rem;
+    border: 1px solid #212121;
+}
+
+.jadwal-place
+    .mata-kuliah
+    .kp-button[kelas-tabrakan="true"][terpilih="false"]:hover {
+    cursor: default;
+}
+
+.jadwal-place
+    .mata-kuliah
+    .kp-button[kelas-tabrakan="true"][terpilih="false"]:hover
+    .kelas-tabrakan-info {
+    display: inherit;
+}
