@@ -149,6 +149,6 @@ th {
 .jadwal-place
     .mata-kuliah
     .kp-button[kelas-tabrakan="true"][terpilih="false"]:hover
-    .kelas-tabrakan-info {
+    ~ .kelas-tabrakan-info {
     display: inherit;
 }

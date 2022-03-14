@@ -1,10 +1,4 @@
-class Jadwal {
-    static batasAwalWaktu = "07.00";
-    static batasAkhirWaktu = "18.00";
-
-    static batasAwalHari = "Senin";
-    static batasAkhirHari = "Selasa";
-
+class JadwalKuliah {
     static daftarHari = [
         "Senin",
         "Selasa",
@@ -15,194 +9,179 @@ class Jadwal {
         "Minggu",
     ];
 
-    constructor(matakuliah, tabelJadwal) {
-        Jadwal.populateMatkul(matakuliah, 4, 1);
-    }
+    constructor(
+        tabelMataKuliah,
+        tabelJadwal,
+        daftarMataKuliah,
+        preferensi = null
+    ) {
+        this.tabelMataKuliah = tabelMataKuliah;
+        this.tabelJadwal = tabelJadwal;
+        this.daftarMataKuliah = daftarMataKuliah;
 
-    static populateMatkul(matkulliah, page_size, page_number) {
-        var matkulElement = document.getElementById("mata-kuliah");
-        var matkul = Jadwal.paginateArray(matkulliah, page_size, page_number);
-        for (var i = 0; i < matkul.length; i++) {
-            var matkulTerpilih = localStorage.getItem(`${matkul[i].nama}`);
-            var element = ` <div class="mata-kuliah">             
-                <div id="row-mata-kuliah" class="row">
-                    <p>${matkul[i].nama}</p>
-
-                    ${matkul[i].kelas
-                        .map(
-                            (kp) =>
-                                `
-                        <div id="kelas-paralel" class="col-sm-6" onclick="clickKelas(this)" kode="${
-                            matkul[i].kode
-                        }"  kp="${kp.kode}" data-kode-kelas="${kp.kode}">
-
-                            <input id="btn-kelas" type="button" value="${
-                                kp.kode
-                            }"   
-                            ${
-                                matkulTerpilih == null
-                                    ? "class='kelas-paralel'"
-                                    : "class='kelas-paralel terpilih' terpilih='true'"
-                            }>
-
-                            ${kp.jadwal
-                                .map(
-                                    (jadwal) =>
-                                        `
-                                <p>${jadwal.hari} ${jadwal.waktuMulai} - ${jadwal.waktuBerakhir}</p>
-                                `
-                                )
-                                .join("")}
-                        </div>
-                        `
-                        )
-                        .join("")}
-                </div>
-            </div>
-            `;
-            matkulElement.innerHTML += element;
-        }
-        Jadwal.populatePaging(matakuliah, page_size, page_number);
-    }
-
-    static populatePaging(data, dataPerPage, active) {
-        var page = Math.ceil(data.length / dataPerPage);
-
-        var end = 0;
-        var start = 0;
-
-        if (active > 3) {
-            start = active - 3;
+        if (preferensi) {
+            this.daftarKolom = preferensi.daftarKolom
+                ? preferensi.daftarKolom
+                : ["Kode", "Nama", "Kelas"];
         } else {
-            start = 1;
+            this.daftarKolom = ["Kode", "Nama", "Kelas"];
         }
 
-        if (start < page - 3) {
-            end = active + 3;
-        } else {
-            end = page;
-        }
+        this.jumlahSks = 0;
 
-        var pageElement = document.getElementById("pagination");
-        for (var i = start; i <= end; i++) {
-            let element = `
-            <div id="page" ${
-                i == active
-                    ? "class='page-number active'"
-                    : "class='page-number'"
-            }>
-                <a href="#" onclick="clickPage(${i})" >${i}</a>
-            </div>
-                
-            `;
-            pageElement.innerHTML += element;
-        }
-    }
+        this.jumlahKelasDipilih = 0;
 
-    static paginateArray(array, page_size, page_number) {
-        return array.slice(
-            (page_number - 1) * page_size,
-            page_number * page_size
-        );
-    }
-
-    static clickPage(number) {
-        var matkulElement = document.getElementById("mata-kuliah");
-        var pageElement = document.getElementById("pagination");
-        pageElement.innerHTML = "";
-        matkulElement.innerHTML = "";
-        Jadwal.populateMatkul(matakuliah, 4, number);
-    }
-
-    static clickKelas(daftarMataKuliah, kelas, tabelJadwal) {
-        const kp = kelas.attributes["kp"].value;
-        const kode = kelas.attributes["kode"].value;
-
-        const matkuldipilih = daftarMataKuliah.find(
-            (matakuliah) => matakuliah.kode === kode
+        this.batasAwalHari = JadwalKuliah.daftarHari.indexOf(
+            this.daftarMataKuliah[0].kelas[0].jadwal[0].hari
         );
 
-        const kelasdipilih = matkuldipilih.kelas.find(
-            (kelas) => kelas.kode == kp
+        this.batasAkhirHari = JadwalKuliah.daftarHari.indexOf(
+            this.daftarMataKuliah[0].kelas[0].jadwal[0].hari
         );
 
-        if (kelas.firstElementChild.attributes["terpilih"]) {
-            kelas.firstElementChild.classList.remove("terpilih");
-            kelas.firstElementChild.removeAttribute("terpilih");
-            // localStorage.removeItem(matkuldipilih.nama)
-        } else {
-            // localStorage.setItem(matkuldipilih.nama, JSON.stringify(kelasdipilih))
-            kelas.firstElementChild.classList.add("terpilih");
-            kelas.firstElementChild.setAttribute("terpilih", "true");
-            console.log(kelasdipilih);
-            Jadwal.selectClass(matkuldipilih, kelasdipilih, tabelJadwal);
-        }
+        this.batasAwalWaktu = JadwalKuliah.stringWaktuKeTotalMenit(
+            this.daftarMataKuliah[0].kelas[0].jadwal[0].waktuMulai
+        );
 
-        // let asd = Object.keys(localStorage)
-        // console.log(asd)
-    }
+        this.batasAkhirWaktu = JadwalKuliah.stringWaktuKeTotalMenit(
+            this.daftarMataKuliah[0].kelas[0].jadwal[0].waktuBerakhir
+        );
 
-    static selectClass(matkuldipilih, kelas, tabelJadwal) {
-        kelas.jadwal.forEach((jadwal) => {
-            const waktuMulai = Jadwal.stringToMinute(jadwal.waktuMulai);
-            const waktuBerakhir = Jadwal.stringToMinute(jadwal.waktuBerakhir);
-            const perbedaan = waktuBerakhir - waktuMulai;
+        this.daftarMataKuliah.forEach((mataKuliah) => {
+            mataKuliah.kelas.forEach((kelas) => {
+                kelas.jadwal.forEach((jadwal) => {
+                    const indexHari = JadwalKuliah.daftarHari.indexOf(
+                        jadwal.hari
+                    );
+                    if (indexHari < this.batasAwalHari) {
+                        this.batasAwalHari = indexHari;
+                    }
+                    if (indexHari > this.batasAkhirHari) {
+                        this.batasAkhirHari = indexHari;
+                    }
 
-            const divJadwal = tabelJadwal.tBodies[0]
-                .querySelector(
-                    `tr:nth-child(${
-                        Number.parseInt(waktuMulai / 60) -
-                        Jadwal.batasAwalWaktu +
-                        1
-                    })>td:nth-child(${
-                        Jadwal.daftarHari.indexOf(jadwal.hari) + 2
-                    })`
-                )
-                .appendChild(document.createElement("div"));
+                    const totalMenitwaktuMulai =
+                        JadwalKuliah.stringWaktuKeTotalMenit(jadwal.waktuMulai);
+                    if (totalMenitwaktuMulai < this.batasAwalWaktu) {
+                        this.batasAwalWaktu = totalMenitwaktuMulai;
+                    }
 
-            divJadwal.classList.add("jadwal");
-
-            divJadwal.style.height = `calc(${
-                Number.parseInt(perbedaan / 60) * 4
-            }rem + ${((perbedaan % 60) / 60) * 4}rem - 1px)`;
-
-            divJadwal.style.marginTop = `calc(-0.05rem + ${
-                ((waktuMulai % 60) / 60) * 4
-            }rem + 1px)`;
-
-            divJadwal.setAttribute("data-kode-mata-kuliah", matkuldipilih.kode);
-            divJadwal.setAttribute("data-kode-kelas", kelas.kode);
-
-            const divInformasiJadwal = divJadwal.appendChild(
-                document.createElement("div")
-            );
-
-            divInformasiJadwal.classList.add("jadwal__detail");
-
-            divInformasiJadwal.appendChild(
-                document.createElement("p")
-            ).textContent = matkuldipilih.nama;
-
-            divInformasiJadwal.appendChild(
-                document.createElement("p")
-            ).textContent = `Kelas ${kelas.kode}`;
-
-            divInformasiJadwal.appendChild(
-                document.createElement("p")
-            ).textContent = `${jadwal.waktuMulai} - ${jadwal.waktuBerakhir}`;
+                    const totalMenitwaktuBerakhir =
+                        JadwalKuliah.stringWaktuKeTotalMenit(
+                            jadwal.waktuBerakhir
+                        );
+                    if (totalMenitwaktuBerakhir > this.batasAkhirWaktu) {
+                        this.batasAkhirWaktu = totalMenitwaktuBerakhir;
+                    }
+                });
+            });
         });
 
-        const time = Jadwal.totalMenitKeStringWaktu("420");
-        console.log(time);
+        this.daftarHari = JadwalKuliah.daftarHari.slice(
+            this.batasAwalHari,
+            this.batasAkhirHari + 1
+        );
 
-        // console.log(namaMatkul)
-        // console.log(kelas)
-        // console.log(tabelJadwal)
+        this.batasAwalWaktu = Number.parseInt(this.batasAwalWaktu / 60);
+        if (this.batasAkhirWaktu % 60 === 0) {
+            this.batasAkhirWaktu = this.batasAkhirWaktu / 60 - 1;
+        } else {
+            this.batasAkhirWaktu = Number.parseInt(this.batasAkhirWaktu / 60);
+        }
+
+        this.tabelMataKuliah.createTHead();
+        this.tabelMataKuliah.tHead.insertRow();
+        this.daftarKolom.forEach((header) => {
+            this.tabelMataKuliah.tHead.rows[0].appendChild(
+                document.createElement("th")
+            ).textContent = header;
+        });
+
+        this.tabelMataKuliah.createTBody();
+        this.daftarMataKuliah.forEach((mataKuliah) => {
+            const tr = this.tabelMataKuliah.tBodies[0].insertRow();
+            this.daftarKolom.forEach((kolom) => {
+                if (kolom.toLowerCase() === "kelas") {
+                    const divContainerKelas = tr
+                        .insertCell()
+                        .appendChild(document.createElement("div"));
+                    divContainerKelas.classList.add("container-kelas");
+                    divContainerKelas.setAttribute(
+                        "data-kode-mata-kuliah",
+                        mataKuliah.kode
+                    );
+                    mataKuliah.kelas.forEach((kelas) => {
+                        const divKelas = divContainerKelas.appendChild(
+                            document.createElement("div")
+                        );
+                        divKelas.classList.add("kelas");
+                        divKelas.addEventListener("click", () => {
+                            this.clickKelas(
+                                mataKuliah.kode,
+                                mataKuliah.sks,
+                                kelas.kode
+                            );
+                        });
+                        const ulKelasBertabrakan = divKelas.appendChild(
+                            document.createElement("ul")
+                        );
+                        ulKelasBertabrakan.classList.add(
+                            "kelas__kelas-bertabrakan"
+                        );
+                        divKelas.appendChild(
+                            document.createElement("p")
+                        ).textContent = kelas.kode;
+                        divKelas.setAttribute("data-kode-kelas", kelas.kode);
+                        kelas.jadwal.forEach((jadwal) => {
+                            divKelas.appendChild(
+                                document.createElement("p")
+                            ).textContent = JadwalKuliah.jadwalKeString(jadwal);
+                        });
+                    });
+                } else {
+                    tr.insertCell().textContent =
+                        mataKuliah[kolom.toLowerCase()];
+                }
+            });
+        });
+
+        this.tabelJadwal.createTHead();
+        this.tabelJadwal.tHead
+            .insertRow()
+            .appendChild(document.createElement("th")).colSpan =
+            this.daftarHari.length + 1;
+        this.tabelJadwal.tHead
+            .insertRow()
+            .appendChild(document.createElement("th")).textContent = "Waktu";
+        this.daftarHari.forEach((hari) => {
+            this.tabelJadwal.tHead.rows[1].appendChild(
+                document.createElement("th")
+            ).textContent = hari;
+        });
+
+        this.tabelJadwal.createTBody();
+        for (let i = this.batasAwalWaktu; i <= this.batasAkhirWaktu; i++) {
+            const row = this.tabelJadwal.tBodies[0].insertRow();
+            for (let i = 0; i <= this.daftarHari.length; i++) {
+                row.insertCell();
+            }
+            row.firstChild.textContent = JadwalKuliah.totalMenitKeStringWaktu(
+                i * 60
+            );
+        }
     }
 
-    static stringToMinute(waktu) {
-        const jam = Number.parseInt(waktu.substring(0, waktu.indexOf(".")));
-        const menit = Number.parseInt(waktu.substring(waktu.indexOf(".") + 1));
+    static jadwalKeString(jadwal) {
+        return `${jadwal.hari}, ${jadwal.waktuMulai} - ${jadwal.waktuBerakhir}`;
+    }
+
+    static stringWaktuKeTotalMenit(stringWaktu) {
+        const jam = Number.parseInt(
+            stringWaktu.substring(0, stringWaktu.indexOf("."))
+        );
+        const menit = Number.parseInt(
+            stringWaktu.substring(stringWaktu.indexOf(".") + 1)
+        );
         return jam * 60 + menit;
     }
 
@@ -214,11 +193,211 @@ class Jadwal {
         return `${jam}.${menit}`;
     }
 
-    static resetState() {
-        console.log("reset");
-        localStorage.clear();
-        var matkulElement = document.getElementById("mata-kuliah");
-        matkulElement.innerHTML = "";
-        Jadwal.populateMatkul(matakuliah, 4, 1);
+    static jadwalBertabrakan(jadwal1, jadwal2) {
+        if (jadwal1.hari !== jadwal2.hari) return false;
+        const waktuMulaiJadwal1 = JadwalKuliah.stringWaktuKeTotalMenit(
+            jadwal1.waktuMulai
+        );
+        const waktuBerakhirJadwal1 = JadwalKuliah.stringWaktuKeTotalMenit(
+            jadwal1.waktuBerakhir
+        );
+        const waktuMulaiJadwal2 = JadwalKuliah.stringWaktuKeTotalMenit(
+            jadwal2.waktuMulai
+        );
+        const waktuBerakhirJadwal2 = JadwalKuliah.stringWaktuKeTotalMenit(
+            jadwal2.waktuBerakhir
+        );
+        return !(waktuBerakhirJadwal2 <= waktuMulaiJadwal1
+            ? true
+            : waktuMulaiJadwal2 >= waktuBerakhirJadwal1);
+    }
+
+    divKelas(kodeMataKuliah, kodeKelas) {
+        return this.tabelMataKuliah.querySelector(
+            `.container-kelas[data-kode-mata-kuliah='${kodeMataKuliah}'] .kelas[data-kode-kelas='${kodeKelas}']`
+        );
+    }
+
+    clickKelas(kodeMataKuliah, sksMk, kodeKelas) {
+        const divKelas = this.divKelas(kodeMataKuliah, kodeKelas);
+        if (divKelas.getAttribute("data-kelas-bertabrakan") === "true") return;
+        let kodeKelasDipilihSebelumnya = divKelas.parentElement.getAttribute(
+            "data-kode-kelas-dipilih"
+        );
+        if (kodeKelasDipilihSebelumnya === kodeKelas) {
+            this.batalPilihKelas(kodeMataKuliah, sksMk, kodeKelas);
+        } else {
+            if (kodeKelasDipilihSebelumnya) {
+                this.batalPilihKelas(
+                    kodeMataKuliah,
+                    sksMk,
+                    kodeKelasDipilihSebelumnya
+                );
+            }
+            this.pilihKelas(kodeMataKuliah, sksMk, kodeKelas);
+        }
+        this.tabelJadwal.tHead.rows[0].firstChild.textContent = `Terpilih ${this.jumlahSks} Sks`;
+    }
+
+    pilihKelas(kodeMataKuliah, sksMk, kodeKelas) {
+        const jumsks = parseInt(this.jumlahSks);
+        const sksmk = parseInt(sksMk);
+
+        const tempSks = jumsks + sksmk;
+
+        this.jumlahSks = tempSks;
+
+        this.jumlahKelasDipilih++;
+
+        const mataKuliahDipilih = this.daftarMataKuliah.find(
+            (mataKuliah) => mataKuliah.kode === kodeMataKuliah
+        );
+        const kelasDipilih = mataKuliahDipilih.kelas.find(
+            (kelas) => kelas.kode === kodeKelas
+        );
+
+        const divKelas = this.divKelas(kodeMataKuliah, kodeKelas);
+        divKelas.classList.add("kelas--dipilih");
+        divKelas.parentElement.parentElement.parentElement.classList.add(
+            "tr--kelas-telah-dipilih"
+        );
+        divKelas.parentElement.setAttribute(
+            "data-kode-kelas-dipilih",
+            kodeKelas
+        );
+
+        this.daftarMataKuliah.forEach((mataKuliah) => {
+            if (mataKuliah.kode === kodeMataKuliah) return;
+            mataKuliah.kelas.forEach((kelas) => {
+                for (let i = 0; i < kelas.jadwal.length; i++) {
+                    for (let j = 0; j < kelasDipilih.jadwal.length; j++) {
+                        if (
+                            JadwalKuliah.jadwalBertabrakan(
+                                kelas.jadwal[i],
+                                kelasDipilih.jadwal[j]
+                            )
+                        ) {
+                            const divKelas = this.divKelas(
+                                mataKuliah.kode,
+                                kelas.kode
+                            );
+                            divKelas.setAttribute(
+                                "data-kelas-bertabrakan",
+                                true
+                            );
+                            const liPesan = divKelas
+                                .querySelector(".kelas__kelas-bertabrakan")
+                                .appendChild(document.createElement("li"));
+                            liPesan.innerHTML = `<b>${
+                                mataKuliahDipilih.nama
+                            } (Kelas ${kodeKelas})</b> pada <b>${JadwalKuliah.jadwalKeString(
+                                kelasDipilih.jadwal[j]
+                            )}</b>`;
+                            liPesan.setAttribute(
+                                "data-kode-mata-kuliah-bertabrakan",
+                                kodeMataKuliah
+                            );
+                            liPesan.setAttribute(
+                                "data-kode-kelas-bertabrakan",
+                                kodeKelas
+                            );
+                            liPesan.setAttribute(
+                                "data-index-jadwal-bertabrakan",
+                                j
+                            );
+                        }
+                    }
+                }
+            });
+        });
+
+        kelasDipilih.jadwal.forEach((jadwal) => {
+            const menitwaktuMulai = JadwalKuliah.stringWaktuKeTotalMenit(
+                jadwal.waktuMulai
+            );
+            const menitwaktuBerakhir = JadwalKuliah.stringWaktuKeTotalMenit(
+                jadwal.waktuBerakhir
+            );
+            const perbedaanWaktu = menitwaktuBerakhir - menitwaktuMulai;
+
+            const divJadwal = this.tabelJadwal.tBodies[0]
+                .querySelector(
+                    `tr:nth-child(${
+                        Number.parseInt(menitwaktuMulai / 60) -
+                        this.batasAwalWaktu +
+                        1
+                    })>td:nth-child(${
+                        this.daftarHari.indexOf(jadwal.hari) + 2
+                    })`
+                )
+                .appendChild(document.createElement("div"));
+            divJadwal.classList.add("jadwal");
+            divJadwal.style.height = `calc(${
+                Number.parseInt(perbedaanWaktu / 60) * 4
+            }rem + ${((perbedaanWaktu % 60) / 60) * 4}rem - 1px)`;
+            divJadwal.style.marginTop = `calc(-2rem + ${
+                ((menitwaktuMulai % 60) / 60) * 4
+            }rem + 1px)`;
+            divJadwal.setAttribute("data-kode-mata-kuliah", kodeMataKuliah);
+            divJadwal.setAttribute("data-kode-kelas", kodeKelas);
+
+            const divInformasiJadwal = divJadwal.appendChild(
+                document.createElement("div")
+            );
+            divInformasiJadwal.classList.add("jadwal__detail");
+            divInformasiJadwal.appendChild(
+                document.createElement("p")
+            ).textContent = mataKuliahDipilih.nama;
+            divInformasiJadwal.appendChild(
+                document.createElement("p")
+            ).textContent = `Kelas ${kodeKelas}`;
+            divInformasiJadwal.appendChild(
+                document.createElement("p")
+            ).textContent = `${jadwal.waktuMulai} - ${jadwal.waktuBerakhir}`;
+        });
+    }
+
+    batalPilihKelas(kodeMataKuliah, sksMk, kodeKelas) {
+        const jumsks = parseInt(this.jumlahSks);
+        const sksmk = parseInt(sksMk);
+
+        const tempSks = jumsks - sksmk;
+
+        this.jumlahSks = tempSks;
+
+        this.jumlahKelasDipilih--;
+
+        const divKelas = this.divKelas(kodeMataKuliah, kodeKelas);
+        divKelas.classList.remove("kelas--dipilih");
+        divKelas.parentElement.removeAttribute("data-kode-kelas-dipilih");
+        divKelas.parentElement.parentElement.parentElement.classList.remove(
+            "tr--kelas-telah-dipilih"
+        );
+
+        this.tabelMataKuliah
+            .querySelectorAll(
+                `.kelas__kelas-bertabrakan li[data-kode-mata-kuliah-bertabrakan='${kodeMataKuliah}'][data-kode-kelas-bertabrakan='${kodeKelas}']`
+            )
+            .forEach((el) => {
+                el.remove();
+            });
+        this.tabelMataKuliah
+            .querySelectorAll(".kelas__kelas-bertabrakan")
+            .forEach((el) => {
+                if (el.childElementCount === 0) {
+                    el.parentElement.setAttribute(
+                        "data-kelas-bertabrakan",
+                        false
+                    );
+                }
+            });
+
+        this.tabelJadwal
+            .querySelectorAll(
+                `.jadwal[data-kode-mata-kuliah='${kodeMataKuliah}'][data-kode-kelas='${kodeKelas}']`
+            )
+            .forEach((el) => {
+                el.remove();
+            });
     }
 }
