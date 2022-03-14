@@ -209,26 +209,35 @@
         });
     }
 
-    function tabrakan(selectedKelas) {
-        debugger;
+    async function tabrakan(selectedKelas) {
         const kodeKelas = selectedKelas.attr("value");
         const idMatkul = selectedKelas.attr("id-matkul");
-        console.log(kodeKelas);
-        // $(".kelas-info").each(function (i, obj) {
-        //     const button = $(this).children(".kp-button");
-        //     const info = $(this).children(".jadwal-info").html().split(" ");
-
-        //     const hari = info[0];
-        //     const time = info[1].split("-");
-        //     const awal = time[0];
-        //     const akhir = time[1];
-
-        //     const jadwal = {
-        //         hari: hari,
-        //         mulai: awal,
-        //         akhir: akhir,
-        //     };
-        // });
+        const result = (await getMatkul(idMatkul))["data"][0];
+        const selectedClass = result.kelas.find(
+            (kelas) => kelas.kode == kodeKelas
+        );
+        $(".kelas-info").each(function (i, obj) {
+            const button = $(this).children(".kp-button");
+            const info = $(this).children(".jadwal-info").html().split(" ");
+            const hari = info[0];
+            const time = info[1].split("-");
+            const awal = time[0];
+            const akhir = time[1];
+            const jadwal = {
+                hari: hari,
+                mulai: awal,
+                akhir: akhir,
+            };
+            // console.table(selectedClass);
+            selectedClass.jadwal.forEach((sch) => {
+                if (bertabrakan(jadwal, sch)) {
+                    if (button.attr("terpilih") != "true") {
+                        button.addClass("kelas-tabrakan");
+                        button.attr("kelas-tabrakan", true);
+                    }
+                }
+            });
+        });
     }
 
     function bertabrakan(jadwal1, jadwal2) {
@@ -280,11 +289,6 @@
         });
 
         $(document).on("click", ".kp-button", async function (e) {
-            // debugger;
-            // const tabrakan = $(this).attr("kelas-tabrakan");
-            // console.log(tabrakan);
-            tabrakan($(this));
-            // const kodeKelas = $(this).attr("value");
             const alreadySelected = $(this).attr("terpilih");
             const idMatkul = $(this).attr("id-matkul");
             if (
@@ -293,6 +297,7 @@
             ) {
                 console.log("Test");
                 pilihKelas($(this));
+                await tabrakan($(this));
             } else {
                 batalPilihKelas($(this));
             }
