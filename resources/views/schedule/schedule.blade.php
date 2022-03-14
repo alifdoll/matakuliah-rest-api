@@ -152,7 +152,6 @@
     }
 
     async function pilihKelas(selectedKelas) {
-        console.log("Test");
         selectedKelas.addClass("terpilih");
         selectedKelas.attr("terpilih", true);
 
@@ -168,7 +167,6 @@
         selectedMatkul.kelas = selectedClass;
         addClassTable(selectedMatkul);
         localStorage.setItem(selectedMatkul.id, JSON.stringify(selectedMatkul));
-        console.log(selectedMatkul);
     }
 
     async function batalPilihKelas(kelas) {
@@ -179,7 +177,7 @@
         removeClassTable(kelas);
     }
 
-    function tabrakan() {
+    function tabrakanStorage() {
         $(".kelas-info").each(function (i, obj) {
             const button = $(this).children(".kp-button");
             const info = $(this).children(".jadwal-info").html().split(" ");
@@ -205,13 +203,32 @@
                             button.addClass("kelas-tabrakan");
                             button.attr("kelas-tabrakan", true);
                         }
-                    } else {
-                        button.removeClass("kelas-tabrakan");
-                        button.attr("kelas-tabrakan", false);
                     }
                 });
             });
         });
+    }
+
+    function tabrakan(selectedKelas) {
+        debugger;
+        const kodeKelas = selectedKelas.attr("value");
+        const idMatkul = selectedKelas.attr("id-matkul");
+        console.log(kodeKelas);
+        // $(".kelas-info").each(function (i, obj) {
+        //     const button = $(this).children(".kp-button");
+        //     const info = $(this).children(".jadwal-info").html().split(" ");
+
+        //     const hari = info[0];
+        //     const time = info[1].split("-");
+        //     const awal = time[0];
+        //     const akhir = time[1];
+
+        //     const jadwal = {
+        //         hari: hari,
+        //         mulai: awal,
+        //         akhir: akhir,
+        //     };
+        // });
     }
 
     function bertabrakan(jadwal1, jadwal2) {
@@ -249,15 +266,14 @@
 
     $(".jadwal-place").on("DOMSubtreeModified", function (e) {
         changeButtonColor();
-        tabrakan();
+        tabrakanStorage();
     });
 
     $(document).ready(function () {
         changeButtonColor();
-        tabrakan();
+        tabrakanStorage();
 
         let selectedClasses = getStorageKey();
-        console.log(selectedClasses);
         selectedClasses.forEach((key) => {
             let classes = JSON.parse(localStorage.getItem(key));
             addClassTable(classes);
@@ -267,6 +283,8 @@
             // debugger;
             // const tabrakan = $(this).attr("kelas-tabrakan");
             // console.log(tabrakan);
+            tabrakan($(this));
+            // const kodeKelas = $(this).attr("value");
             const alreadySelected = $(this).attr("terpilih");
             const idMatkul = $(this).attr("id-matkul");
             if (
@@ -277,9 +295,7 @@
                 pilihKelas($(this));
             } else {
                 batalPilihKelas($(this));
-                // tabrakan();
             }
-            tabrakan();
         });
     });
 </script>
