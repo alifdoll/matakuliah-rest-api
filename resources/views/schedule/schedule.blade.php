@@ -209,7 +209,7 @@
         });
     }
 
-    async function tabrakan(selectedKelas) {
+    async function tabrakan(selectedKelas, batal = false) {
         const kodeKelas = selectedKelas.attr("value");
         const idMatkul = selectedKelas.attr("id-matkul");
         const result = (await getMatkul(idMatkul))["data"][0];
@@ -228,15 +228,24 @@
                 mulai: awal,
                 akhir: akhir,
             };
-            // console.table(selectedClass);
-            selectedClass.jadwal.forEach((sch) => {
-                if (bertabrakan(jadwal, sch)) {
-                    if (button.attr("terpilih") != "true") {
-                        button.addClass("kelas-tabrakan");
-                        button.attr("kelas-tabrakan", true);
+
+            if (!batal) {
+                selectedClass.jadwal.forEach((sch) => {
+                    if (bertabrakan(jadwal, sch)) {
+                        if (button.attr("terpilih") != "true") {
+                            button.addClass("kelas-tabrakan");
+                            button.attr("kelas-tabrakan", true);
+                        }
                     }
-                }
-            });
+                });
+            } else {
+                selectedClass.jadwal.forEach((sch) => {
+                    if (button.attr("terpilih") != "true") {
+                        button.removeClass("kelas-tabrakan");
+                        button.attr("kelas-tabrakan", false);
+                    }
+                });
+            }
         });
     }
 
@@ -300,6 +309,7 @@
                 await tabrakan($(this));
             } else {
                 batalPilihKelas($(this));
+                await tabrakan($(this), true);
             }
         });
     });
