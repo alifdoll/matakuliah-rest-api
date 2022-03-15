@@ -1,8 +1,17 @@
-@extends('layout.main') @section('css')
+@extends('layout.main')
+
+@section('css')
 <link rel="stylesheet" href="{{ asset('css/jadwalStyle.css') }}" />
+
 {{--
 <link rel="stylesheet" href="{{ asset('responsive/responsive-jadwal.css') }}" />
---}} @endsection @section('content') {{--
+--}}
+
+@endsection
+
+@section('content')
+
+{{--
 <div class="work-in-progress" id="work-in-progress">
     <div class="container text-center">
         <h1>Oops Sorry! Work in Progress</h1>
@@ -21,13 +30,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="jadwal-searching">
-                    <input
-                        class="search-input"
-                        type="search"
-                        name="search"
-                        id="search"
-                        placeholder="Searching"
-                    />
+                    <input class="search-input" type="search" name="search" id="search" placeholder="Searching" />
                     <input class="search" type="button" value="Search" />
                 </div>
                 <div class="jadwal-place">
@@ -44,7 +47,10 @@
         </div>
     </div>
 </section>
-@endsection @section('script')
+
+@endsection
+
+@section('script')
 <script type="text/javascript">
     const daftarHari = [
         "Senin",
@@ -60,7 +66,7 @@
     function searchSchedule(query) {
         $.ajax({
             url: `schedule?search=${query}`,
-            success: function (data) {
+            success: function(data) {
                 $(".jadwal-place").html(data);
             },
         });
@@ -70,7 +76,7 @@
     function changePage(page, query) {
         $.ajax({
             url: `schedule?search=${query}&page=${page}`,
-            success: function (data) {
+            success: function(data) {
                 $(".jadwal-place").html(data);
             },
         });
@@ -86,14 +92,14 @@
     }
 
     function changeButtonColor() {
-        $(".kelas-info").each(function (i, obj) {
+        $(".kelas-info").each(function(i, obj) {
             const button = $(this).children(".kp-button");
             const idMatkul = button.attr("id-matkul");
 
             let selected = JSON.parse(localStorage.getItem(idMatkul));
 
             if (selected !== null) {
-                if (idMatkul == selected.id) {
+                if (idMatkul == selected.id && button.val() == selected.kelas.kode) {
                     button.addClass("terpilih");
                     button.attr("terpilih", true);
                 }
@@ -151,22 +157,25 @@
         tabble.remove();
     }
 
-    async function pilihKelas(selectedKelas) {
-        selectedKelas.addClass("terpilih");
-        selectedKelas.attr("terpilih", true);
+    async function pilihKelas(selectedKelas, kp) {
+        console.log(selectedKelas.parent().html());
+        if (selectedKelas.val() == kp) {
+            selectedKelas.addClass("terpilih");
+            selectedKelas.attr("terpilih", true);
 
-        const kodeKelas = selectedKelas.attr("value");
-        const idMatkul = selectedKelas.attr("id-matkul");
+            const kodeKelas = selectedKelas.attr("value");
+            const idMatkul = selectedKelas.attr("id-matkul");
 
-        const result = (await getMatkul(idMatkul))["data"][0];
-        const selectedClass = result.kelas.find(
-            (kelas) => kelas.kode == kodeKelas
-        );
+            const result = (await getMatkul(idMatkul))["data"][0];
+            const selectedClass = result.kelas.find(
+                (kelas) => kelas.kode == kodeKelas
+            );
 
-        let selectedMatkul = result;
-        selectedMatkul.kelas = selectedClass;
-        addClassTable(selectedMatkul);
-        localStorage.setItem(selectedMatkul.id, JSON.stringify(selectedMatkul));
+            let selectedMatkul = result;
+            selectedMatkul.kelas = selectedClass;
+            addClassTable(selectedMatkul);
+            localStorage.setItem(selectedMatkul.id, JSON.stringify(selectedMatkul));
+        }
     }
 
     async function batalPilihKelas(kelas) {
@@ -178,7 +187,7 @@
     }
 
     function tabrakanStorage() {
-        $(".kelas-info").each(function (i, obj) {
+        $(".kelas-info").each(function(i, obj) {
             const button = $(this).children(".kp-button");
             const info = $(this).children(".jadwal-info").html().split(" ");
 
@@ -202,6 +211,10 @@
                         if (button.attr("terpilih") != "true") {
                             button.addClass("kelas-tabrakan");
                             button.attr("kelas-tabrakan", true);
+                            // const testing = $(".kelas-tabrakan-info ul").html();
+                            // var test = $("<li>Testing Js</li>");
+                            // $(".kelas-tabrakan-info ul").append(test);
+                            // console.log(testing);
                         }
                     }
                 });
@@ -216,7 +229,9 @@
         const selectedClass = result.kelas.find(
             (kelas) => kelas.kode == kodeKelas
         );
-        $(".kelas-info").each(function (i, obj) {
+
+        // console.log(selectedClass);
+        $(".kelas-info").each(function(i, obj) {
             const button = $(this).children(".kp-button");
             const info = $(this).children(".jadwal-info").html().split(" ");
             const hari = info[0];
@@ -224,6 +239,7 @@
             const awal = time[0];
             const akhir = time[1];
             const jadwal = {
+                nama:result.nama,
                 hari: hari,
                 mulai: awal,
                 akhir: akhir,
@@ -235,6 +251,10 @@
                         if (button.attr("terpilih") != "true") {
                             button.addClass("kelas-tabrakan");
                             button.attr("kelas-tabrakan", true);
+                            const testing = $(".kelas-tabrakan-info ul").html();
+                            var test = $(`<li>Testing Js ${jadwal.nama}</li>`);
+                            $(".kelas-tabrakan-info ul").append(test);
+                            // console.log(testing);
                         }
                     }
                 });
@@ -266,9 +286,9 @@
 </script>
 
 <script type="text/javascript">
-    $(document).ready(function () {
+    $(document).ready(function() {
         //Untuk ganti halaman
-        $(document).on("click", ".page-item", function (e) {
+        $(document).on("click", ".page-item", function(e) {
             e.preventDefault();
             var page = $(this).children().attr("href").split("page=")[1];
             var q = $(".search-input").val();
@@ -276,18 +296,18 @@
         });
 
         //Untuk search matkul
-        $(document).on("click", ".search", function (e) {
+        $(document).on("click", ".search", function(e) {
             var query = $(".search-input").val();
             searchSchedule(query);
         });
     });
 
-    $(".jadwal-place").on("DOMSubtreeModified", function (e) {
+    $(".jadwal-place").on("DOMSubtreeModified", function(e) {
         changeButtonColor();
         tabrakanStorage();
     });
 
-    $(document).ready(function () {
+    $(document).ready(function() {
         changeButtonColor();
         tabrakanStorage();
 
@@ -297,20 +317,25 @@
             addClassTable(classes);
         });
 
-        $(document).on("click", ".kp-button", async function (e) {
+        $(document).on("click", ".kp-button", async function(e) {
             const alreadySelected = $(this).attr("terpilih");
             const idMatkul = $(this).attr("id-matkul");
+            const kp = $(this).val();
             if (
                 typeof alreadySelected === "undefined" ||
                 alreadySelected === "false"
             ) {
-                console.log("Test");
-                pilihKelas($(this));
+                console.log($(this).html());
+                pilihKelas($(this), kp);
                 await tabrakan($(this));
             } else {
                 batalPilihKelas($(this));
                 await tabrakan($(this), true);
             }
+            const testing = $(".kelas-tabrakan-info ul").parent().html();
+            // var test = $("<li>Testing Js</li>");
+            // $(".kelas-tabrakan-info ul").append(test);
+            console.log(testing);
         });
     });
 </script>

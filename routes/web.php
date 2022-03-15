@@ -23,7 +23,8 @@ Route::get('/about', function () {
 });
 
 Route::get('/schedule', 'LectureController@schedule');
-Route::get('/schedule/fetchajax', 'LectureController@fetchAjax');
+
+// Route::get('/schedule/fetchajax', 'LectureController@fetchAjax');
 
 Route::get('/podcast', function () {
     return view('podcast');
