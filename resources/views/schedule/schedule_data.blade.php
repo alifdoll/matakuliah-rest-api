@@ -18,8 +18,8 @@
                     @endforeach
 
                     <div class="kelas-tabrakan-info">
-                        <ul>
-                            <li class="info-tabrakan">Test</li>
+                        <ul id="tabrakan-list-{{$lct->id}}">
+                            <li id="info-tabrakan">Test</li>
                         </ul>
                     </div>
                 </div>

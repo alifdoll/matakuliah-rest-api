@@ -158,7 +158,6 @@
     }
 
     async function pilihKelas(selectedKelas, kp) {
-        console.log(selectedKelas.parent().html());
         if (selectedKelas.val() == kp) {
             selectedKelas.addClass("terpilih");
             selectedKelas.attr("terpilih", true);
@@ -225,8 +224,8 @@
     async function tabrakan(selectedKelas, batal = false) {
         const kodeKelas = selectedKelas.attr("value");
         const idMatkul = selectedKelas.attr("id-matkul");
-        const result = (await getMatkul(idMatkul))["data"][0];
-        const selectedClass = result.kelas.find(
+        const selectedMatkul = (await getMatkul(idMatkul))["data"][0];
+        const selectedClass = selectedMatkul.kelas.find(
             (kelas) => kelas.kode == kodeKelas
         );
 
@@ -234,27 +233,38 @@
         $(".kelas-info").each(function(i, obj) {
             const button = $(this).children(".kp-button");
             const info = $(this).children(".jadwal-info").html().split(" ");
+
+            const id = button.attr("id-matkul");
+            const name = button.attr("nama-matkul");
             const hari = info[0];
             const time = info[1].split("-");
             const awal = time[0];
             const akhir = time[1];
+
+
             const jadwal = {
-                nama:result.nama,
+                id: id,
+                nama:name,
                 hari: hari,
                 mulai: awal,
                 akhir: akhir,
             };
-
+            console.log("coba = " + jadwal.id);
             if (!batal) {
                 selectedClass.jadwal.forEach((sch) => {
                     if (bertabrakan(jadwal, sch)) {
                         if (button.attr("terpilih") != "true") {
                             button.addClass("kelas-tabrakan");
+
                             button.attr("kelas-tabrakan", true);
-                            const testing = $(".kelas-tabrakan-info ul").html();
-                            var test = $(`<li>Testing Js ${jadwal.nama}</li>`);
-                            $(".kelas-tabrakan-info ul").append(test);
-                            // console.log(testing);
+                            var tabrakanInfo = $(`<li id="info-tabrakan-${selectedClass.id}" id-matkul="${selectedClass.id}">Bertabrakan Dengan ${selectedMatkul.nama} </li>`);
+                            $(".kelas-tabrakan-info ul").append(tabrakanInfo);
+                            var values = $(`#tabrakan-list-${jadwal.id} li`).map(function() {
+                                            return this.id;
+                                        }).get();
+                            values.forEach((val, i) => {
+                                console.log(val + " " + i);
+                            })
                         }
                     }
                 });
@@ -263,9 +273,25 @@
                     if (button.attr("terpilih") != "true") {
                         button.removeClass("kelas-tabrakan");
                         button.attr("kelas-tabrakan", false);
+
+                        var values = $(`#tabrakan-list-${jadwal.id} li`).map(function() {
+                            return this.id;
+                        }).get();
+
+                        var id = $(`#tabrakan-list-${jadwal.id} li`).map(function() {
+                            return this.getAttribute("id-matkul");
+                        }).get();
+
+                        values.forEach((val, i) => {
+                            if (selectedClass.id == id[i]) {
+                                $(`#info-tabrakan-${selectedClass.id}`).remove();
+                            }
+                        })
+                                    
                     }
                 });
             }
+            
         });
     }
 
@@ -325,17 +351,12 @@
                 typeof alreadySelected === "undefined" ||
                 alreadySelected === "false"
             ) {
-                console.log($(this).html());
                 pilihKelas($(this), kp);
                 await tabrakan($(this));
             } else {
                 batalPilihKelas($(this));
                 await tabrakan($(this), true);
             }
-            const testing = $(".kelas-tabrakan-info ul").parent().html();
-            // var test = $("<li>Testing Js</li>");
-            // $(".kelas-tabrakan-info ul").append(test);
-            console.log(testing);
         });
     });
 </script>
