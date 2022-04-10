@@ -13,8 +13,8 @@
 
                     @foreach ($kp->schedules as $sch)
                     <p class="jadwal-info">{{ $sch->hari }} {{ \Carbon\Carbon::createFromFormat('H:i:s',
-                        $sch->waktuMulai)->format('h:i') }}-{{ \Carbon\Carbon::createFromFormat('H:i:s',
-                        $sch->waktuBerakhir)->format('h:i') }}</p>
+                        $sch->waktuMulai)->format('H:i') }}-{{ \Carbon\Carbon::createFromFormat('H:i:s',
+                        $sch->waktuBerakhir)->format('H:i') }}</p>
                     @endforeach
 
                     <div class="kelas-tabrakan-info">
